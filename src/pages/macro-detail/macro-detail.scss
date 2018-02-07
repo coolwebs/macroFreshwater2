@@ -1,0 +1,16 @@
+page-macro-detail {
+  table {
+    tr:nth-of-type(odd) {
+      background: #eee;
+    }
+    tr {
+      td {
+        padding: 15px;
+      }
+    }
+    border: 1px solid #ddd;
+  }
+  ion-slide.swiper-slide {
+    align-items: flex-start;
+  }
+}

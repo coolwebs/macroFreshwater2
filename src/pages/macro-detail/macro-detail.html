@@ -1,0 +1,85 @@
+<!--
+  Generated template for the MacroDetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{macroDetails.title}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-card>
+    <ion-card-header><h1>{{macroDetails.title}}</h1></ion-card-header>
+    <ion-card-content>
+      <ion-row>
+        <ion-col col-6>
+
+          <table>
+            <tr>
+              <td width="20%"><strong>Sensitivity Rating</strong></td>
+              <td width="80%">{{macroDetails.sensitivity}}</td>
+            </tr>
+            <tr>
+              <td><strong>Phylum</strong></td>
+              <td>{{macroDetails.phylum}}</td>
+            </tr>
+            <tr>
+              <td><strong>Class</strong></td>
+              <td>{{macroDetails.class}}</td>
+            </tr>
+            <tr>
+              <td><strong>Order</strong></td>
+              <td>{{macroDetails.order}}</td>
+            </tr>
+            <tr>
+              <td><strong>Family</strong></td>
+              <td>{{macroDetails.family}}</td>
+            </tr>
+            <tr>
+              <td><strong>Genera</strong></td>
+              <td>{{macroDetails.genera}}</td>
+            </tr>
+            <tr>
+              <td><strong>Size</strong></td>
+              <td>{{macroDetails.size}}</td>
+            </tr>
+            <tr>
+              <td><strong>Habitat</strong></td>
+              <td>{{macroDetails.habitat}}</td>
+            </tr>
+            <tr>
+              <td><strong>Diet</strong></td>
+              <td [innerHTML]="macroDetails.diet"></td>
+            </tr>
+            <tr>
+              <td><strong>Features</strong></td>
+              <td>{{macroDetails.features}}</td>
+            </tr>
+          </table>
+        </ion-col>
+
+        <ion-col col-6>
+          <!--<div class="imgContainer" *ngFor="let images of macroDetails.featured_image" >-->
+            <!--<img src="../assets/imgs/specimens/{{images}}.jpg" />-->
+          <!--</div>-->
+          <small class="slideinfo">Swipe to change the images</small>
+          <ion-slides pager="true">
+            <ion-slide *ngFor="let images of macroDetails.featured_image">
+              <img src="../assets/imgs/specimens/{{images}}.jpg" />
+            </ion-slide>
+          </ion-slides>
+          <!--<p>this is some text</p>-->
+        </ion-col>
+
+      </ion-row>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
