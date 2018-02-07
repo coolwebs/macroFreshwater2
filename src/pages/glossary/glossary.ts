@@ -17,7 +17,6 @@ export class GlossaryPage {
   ionViewDidLoad() {
     this.http.get('./assets/appGlossary.json')
         .map(response => response.json())
-        //.subscribe(data => console.log(data));
         .subscribe((response) => {
           this.glossaryTerms = response;
         });
