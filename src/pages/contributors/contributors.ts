@@ -14,15 +14,15 @@ export class ContributorsPage {
 
   public openWithSystemBrowser(url : string){
     let target = "_system";
-    this.iab.create(url,target,this.options);
+    this.iab.create(url,target);
   }
   public openWithInAppBrowser(url : string){
     let target = "_blank";
-    this.iab.create(url,target,this.options);
+    this.iab.create(url,target);
   }
   public openWithCordovaBrowser(url : string){
     let target = "_self";
-    this.iab.create(url,target,this.options);
+    this.iab.create(url,target);
   }
 
 }
