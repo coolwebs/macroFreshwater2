@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import {InAppBrowser} from "@ionic-native/in-app-browser";
 
 @Component({
   selector: 'page-contributors',
@@ -7,8 +8,21 @@ import { NavController } from 'ionic-angular';
 })
 export class ContributorsPage {
 
-  constructor(public navCtrl: NavController) {
+  constructor ( private iab: InAppBrowser, public navCtrl: NavController ) {
 
+  }
+
+  public openWithSystemBrowser(url : string){
+    let target = "_system";
+    this.iab.create(url,target,this.options);
+  }
+  public openWithInAppBrowser(url : string){
+    let target = "_blank";
+    this.iab.create(url,target,this.options);
+  }
+  public openWithCordovaBrowser(url : string){
+    let target = "_self";
+    this.iab.create(url,target,this.options);
   }
 
 }

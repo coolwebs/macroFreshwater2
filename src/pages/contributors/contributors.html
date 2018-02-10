@@ -15,15 +15,21 @@
         </a>
       </ion-col>
       <ion-col>
-        <img src="./assets/imgs/contributors/DETE.png" width="200" height="200" />
+        <a (click)="openWithSystemBrowser('http://dete.qld.gov.au/')">
+          <img src="./assets/imgs/contributors/DETE.png" width="200" height="200" />
+        </a>
       </ion-col>
       <ion-col>
-        <img src="./assets/imgs/contributors/oest.png" width="200" height="200" />
+        <a (click)="openWithInAppBrowser('http://oestraining.eq.edu.au/')">
+          <img src="./assets/imgs/contributors/oest.png" width="200" height="200" />
+        </a>
       </ion-col>
     </ion-row>
     <ion-row>
       <ion-col col-6>
-        <img src="./assets/imgs/contributors/griffith-uni.png" />
+        <a (click)="openWithCordovaBrowser('http://www.griffith.edu.au/')">
+          <img src="./assets/imgs/contributors/griffith-uni.png" />
+        </a>
       </ion-col>
       <ion-col>
         <img src="./assets/imgs/contributors/amaroo.png" width="200" height="200" />

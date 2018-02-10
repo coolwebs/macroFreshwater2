@@ -10,6 +10,7 @@ import { ContributorsPage } from '../pages/contributors/contributors';
 import { GlossaryPage } from '../pages/glossary/glossary';
 import { LocatorPage } from '../pages/locator/locator';
 import { TabsPage } from '../pages/tabs/tabs';
+import { InAppBrowser } from '@ionic-native/in-app-browser';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -50,6 +51,7 @@ import { SearchPipe } from '../pipes/search/search';
     SpecimensProvider,
     StatusBar,
     SplashScreen,
+    InAppBrowser,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
   ]
 })
