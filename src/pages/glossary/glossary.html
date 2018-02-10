@@ -8,12 +8,13 @@
 
 <ion-content padding>
 
-  <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+  <ion-searchbar [(ngModel)]="terms"></ion-searchbar>
+  <!--<button ion-button type="button" (click)="sort()">Sort</button>-->
 
   <ion-list>
-    <ion-item *ngFor="let item of glossaryTerms">
-      <h2>{{ item.title }}</h2>
-      <p>{{ item.description }}</p>
+    <ion-item *ngFor="let glossaryItem of glossaryList | search : terms">
+      <h2>{{ glossaryItem.title }}</h2>
+      <p>{{ glossaryItem.description }}</p>
     </ion-item>
   </ion-list>
 

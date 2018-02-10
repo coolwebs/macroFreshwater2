@@ -16,6 +16,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HttpModule } from '@angular/http';
 import { SpecimensProvider } from '../providers/specimens/specimens';
+import { SearchPipe } from '../pipes/search/search';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { SpecimensProvider } from '../providers/specimens/specimens';
     ContributorsPage,
     GlossaryPage,
     LocatorPage,
-    TabsPage
+    TabsPage,
+    SearchPipe
   ],
   imports: [
     HttpModule,

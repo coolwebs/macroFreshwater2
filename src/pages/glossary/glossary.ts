@@ -8,7 +8,11 @@ import "rxjs/add/operator/map";
   templateUrl: 'glossary.html'
 })
 export class GlossaryPage {
-  public glossaryTerms = [];
+  public glossaryList = [];
+
+    descending: boolean = false;
+    order: number;
+    column: string = 'name';
 
   constructor(private http: Http, public navCtrl: NavController) {
 
@@ -18,8 +22,13 @@ export class GlossaryPage {
     this.http.get('./assets/appGlossary.json')
         .map(response => response.json())
         .subscribe((response) => {
-          this.glossaryTerms = response;
+          this.glossaryList = response;
         });
   }
+
+    sort(){
+        this.descending = !this.descending;
+        this.order = this.descending ? 1 : -1;
+    }
 
 }
