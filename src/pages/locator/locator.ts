@@ -45,6 +45,33 @@ export class LocatorPage {
     });
   }
 
+  // Function to add marker at current location
+  addMarker(){
+
+    let marker = new google.maps.Marker({
+      map: this.map,
+      animation: google.maps.Animation.DROP,
+      position: this.map.getCenter()
+    });
+
+    let content = "<h4>Information!</h4>";
+
+    this.addInfoWindow(marker, content);
+
+  }
+
+  addInfoWindow(marker, content){
+
+    let infoWindow = new google.maps.InfoWindow({
+      content: content
+    });
+
+    google.maps.event.addListener(marker, 'click', () => {
+      infoWindow.open(this.map, marker);
+    });
+
+  }
+
   // Function for loading the google map and getting geolocation coords
   loadMap(){
 
@@ -63,6 +90,9 @@ export class LocatorPage {
     }, (err) => {
       console.log(err);
     });
+
+    //automatically place marker at current location
+    //this.addMarker();
 
   }
 
