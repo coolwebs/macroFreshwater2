@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Http } from "@angular/http";
 import "rxjs/add/operator/map";
 import * as $ from "jquery";
+import Shuffle from 'shufflejs';
 
 import { NavController } from 'ionic-angular';
 import { SpecimensProvider } from  '../../providers/specimens/specimens';
@@ -71,6 +72,11 @@ export class FilterPage {
   public allMacros = [];
   constructor(private specimensProvider: SpecimensProvider, private http: Http, public navCtrl: NavController) {
 
+      function resetCheckboxes()
+      {
+          window.location.reload(true);
+      }
+
       $(document).ready(function($) {
 
           $('#accordion').find('.accordion-toggle').click(function(){
@@ -84,10 +90,32 @@ export class FilterPage {
   }
 
   ionViewDidLoad() {
+    // Get the json data for specimens and prepare for template
     this.specimensProvider.getSpecimens()
         .subscribe((response) => {
           this.allMacros = response;
         });
+
+      var shuffleInstance = new Shuffle(document.getElementById('container'), {
+          itemSelector: '.item',
+          sizer: '.js-shuffle-sizer'
+      });
+
+      $('#filters input').click(function (e) {
+          e.preventDefault();
+
+          // set active class
+          $('#filters input').removeClass('active');
+          $(this).addClass('active');
+
+          // get group name from clicked item
+          var groupName = $(this).attr('data-group');
+          console.log(groupName);
+
+          // reshuffle grid
+          shuffleInstance.filter( groupName );
+      });
+
   }
 
   goToMacroDetailsPage(macro){

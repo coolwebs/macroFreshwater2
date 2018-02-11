@@ -13,13 +13,6 @@
       <ion-col col-3 style="background: #9fb5ce;">
         <h2>Sorting Filters</h2>
 
-        <!--<ion-list>-->
-          <!--<ion-item (click)="toggleIcon()">-->
-            <!--Size-->
-            <!--<ion-icon name="add-circle" item-end></ion-icon>-->
-          <!--</ion-item>-->
-        <!--</ion-list>-->
-
         <div id="accordion">
           <h4 class="accordion-toggle dormantState" (click)="toggleIconSize()">Size <ion-icon id="collapseIcon" [name]="buttonIconSize"></ion-icon></h4>
           <div class="accordion-content">
@@ -189,7 +182,7 @@
       <ion-col style="background: white;">
         <ion-grid id="container">
           <ion-row>
-            <ion-col col-2 *ngFor="let macro of allMacros" (click)="goToMacroDetailsPage(macro)" class="{{macro.cssClasses}}">
+            <ion-col col-2 *ngFor="let macro of allMacros" (click)="goToMacroDetailsPage(macro)" class="item" data-groups="{{macro.cssClasses}}">
               <ion-card>
                 <img src="../assets/imgs/specimens/thumbs/{{macro.thumbnail}}.jpg"/>
                 <ion-card-content>
@@ -204,5 +197,31 @@
       </ion-col>
     </ion-row>
   </ion-grid>
+
+  <script>
+      $(function(){
+          var $container = $('#container'),
+              $checkboxes = $('#filters input');
+
+          $container.isotope({
+              itemSelector: '.item'
+          });
+
+          $checkboxes.change(function(){
+              var filters = [];
+              // get checked radio values
+              $checkboxes.filter(':checked').each(function(){
+                  filters.push( this.value );
+              });
+              // ['.red', '.blue'] -> '.red, .blue'
+              filters = filters.join('');
+              $container.isotope({ filter: filters });
+          });
+
+          $('#shuffle').click(function(){
+              $container.isotope('shuffle');
+          });
+      });
+  </script>
 
 </ion-content>
