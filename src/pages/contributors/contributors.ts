@@ -11,18 +11,10 @@ export class ContributorsPage {
   constructor ( private iab: InAppBrowser, public navCtrl: NavController ) {
 
   }
-
-  public openWithSystemBrowser(url : string){
-    let target = "_system";
-    this.iab.create(url,target);
-  }
+  
+  // function for activating the InAppBrowser links on contribution page
   public openWithInAppBrowser(url : string){
     let target = "_blank";
     this.iab.create(url,target);
   }
-  public openWithCordovaBrowser(url : string){
-    let target = "_self";
-    this.iab.create(url,target);
-  }
-
 }
