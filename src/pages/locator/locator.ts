@@ -46,7 +46,7 @@ export class LocatorPage {
   }
 
   // Function to add marker at current location
-  addMarker(){
+  addMarker(map:any){
 
     let marker = new google.maps.Marker({
       map: this.map,
@@ -77,22 +77,29 @@ export class LocatorPage {
 
     this.geolocation.getCurrentPosition().then((position) => {
 
+      // Define a variable to hold the lattitude and longitude coords
       let latLng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
 
+      // Define a variable to hold the current altitude reading
+      // let locAltitude = position.coords.altitude;
+      // console.log(locAltitude);
+
+      // Build the map and setup the maps api options
       let mapOptions = {
         center: latLng,
         zoom: 15,
+        enableHighAccuracy: true,
         mapTypeId: google.maps.MapTypeId.ROADMAP
       }
 
       this.map = new google.maps.Map(this.mapElement.nativeElement, mapOptions);
+      this.addMarker(this.map);
+
+      console.log(position.coords.altitude);
 
     }, (err) => {
       console.log(err);
     });
-
-    //automatically place marker at current location
-    //this.addMarker();
 
   }
 
