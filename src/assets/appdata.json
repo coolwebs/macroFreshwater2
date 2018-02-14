@@ -2,11 +2,11 @@
     {
       "title": "Back Swimmer",
       "properties": [
-        "nonmicro",
-        "noshell",
-        "threepairs",
-        "notail",
-        "veryTol"
+        "['nonmicro'",
+        "'noshell'",
+        "'threepairs'",
+        "'notail'",
+        "'veryTol']"
       ],
       "thumbnail": "backswimmer-th",
       "featured_image": [
@@ -843,7 +843,6 @@
         "noshell",
         "fourpairs",
         "nowings",
-        // not sure why nowings property is here...
         "notail",
         "veryTol"
       ],
