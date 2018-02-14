@@ -1,7 +1,13 @@
 [
     {
       "title": "Back Swimmer",
-      "cssClasses": "item nonmicro noshell threepairs notail veryTol",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "threepairs",
+        "notail",
+        "veryTol"
+      ],
       "thumbnail": "backswimmer-th",
       "featured_image": [
         "back-swimmer/Backswimmer1-big",
@@ -21,7 +27,13 @@
     },
     {
       "title": "Biting Midge Larva",
-      "cssClasses": "item nonmicro noshell nolegs notail tolerant",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "nolegs",
+        "notail",
+        "tolerant"
+      ],
       "thumbnail": "bitingMidge-th",
       "featured_image": [
         "biting-midge/biting-midge1",
@@ -40,7 +52,13 @@
     },
     {
       "title": "Blackfly Larva",
-      "cssClasses": "item nonmicro noshell nolegs notail tolerant",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "nolegs",
+        "notail",
+        "tolerant"
+      ],
       "thumbnail": "blackfly-th",
       "featured_image": [
         "blackfly/blackfly1"
@@ -58,7 +76,13 @@
     },
     {
       "title": "Caddisfly",
-      "cssClasses": "item nonmicro noshell threepairs notail verySens",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "threepairs",
+        "notail",
+        "verySens"
+      ],
       "thumbnail": "caddisfly-th",
       "featured_image": [
         "caddisfly/caddisfly1",
@@ -77,7 +101,13 @@
     },
     {
       "title": "Creeping Water Beetle",
-      "cssClasses": "item nonmicro noshell threepairs notail veryTol",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "threepairs",
+        "notail",
+        "veryTol"
+      ],
       "thumbnail": "waterBeetle-th",
       "featured_image": [
         "biting-midge/biting-midge1",
@@ -97,7 +127,13 @@
     },
     {
       "title": "Cyclops",
-      "cssClasses": "item micro noshell nolegs notail veryTol",
+      "properties": [
+        "micro",
+        "noshell",
+        "nolegs",
+        "notail",
+        "veryTol"
+      ],
       "thumbnail": "cyclopoid-th",
       "featured_image": [
         "cyclops/cyclops1",
@@ -115,7 +151,13 @@
     },
     {
       "title": "Damselfly",
-      "cssClasses": "item nonmicro noshell threepairs threetail tolerant",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "threepairs",
+        "threetail",
+        "tolerant"
+      ],
       "thumbnail": "damselfly-th",
       "featured_image": [
         "damselfly-nymph/damselfy-nymph1",
@@ -135,12 +177,24 @@
     },
     {
       "title": "Dragonfly",
-      "cssClasses": "item nonmicro noshell threepairs notail tolerant",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "threepairs",
+        "notail",
+        "tolerant"
+      ],
       "thumbnail": "dragonfly-th"
     },
     {
       "title": "Flatworm",
-      "cssClasses": "item nonmicro noshell nolegs notail veryTol",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "nolegs",
+        "notail",
+        "veryTol"
+      ],
       "thumbnail": "flatworm-th",
       "featured_image": [
         "flatworm/flatworm1",
@@ -158,7 +212,13 @@
     },
     {
       "title": "Freshwater Mussel",
-      "cssClasses": "item nonmicro twoshell nolegs notail veryTol",
+      "properties": [
+        "nonmicro",
+        "twoshell",
+        "nolegs",
+        "notail",
+        "veryTol"
+      ],
       "thumbnail": "mussel-th",
       "featured_image": [
         "mussel/freshwater-mussel1",
@@ -176,7 +236,13 @@
     },
     {
       "title": "Segmented Worm",
-      "cssClasses": "item nonmicro noshell nolegs notail veryTol",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "nolegs",
+        "notail",
+        "veryTol"
+      ],
       "thumbnail": "worm-th",
       "featured_image": [
         "segmented-worm/segmented-worm1",
@@ -194,7 +260,13 @@
     },
     {
       "title": "Freshwater Shrimp",
-      "cssClasses": "item nonmicro noshell fourpairs onetail tolerant",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "fourpairs",
+        "onetail",
+        "tolerant"
+      ],
       "thumbnail": "shrimp-th",
       "featured_image": [
         "shrimp/freshwater-shrimp1",
@@ -214,7 +286,13 @@
     },
     {
       "title": "Freshwater Snail",
-      "cssClasses": "item nonmicro oneshell nolegs notail veryTol",
+      "properties": [
+        "nonmicro",
+        "oneshell",
+        "nolegs",
+        "notail",
+        "veryTol"
+      ],
       "thumbnail": "snail-th",
       "featured_image": [
         "snail/freshwater-snail1",
@@ -232,7 +310,13 @@
     },
     {
       "title": "Freshwater Yabby",
-      "cssClasses": "item nonmicro noshell fourpairs onetail tolerant",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "fourpairs",
+        "onetail",
+        "tolerant"
+      ],
       "thumbnail": "yabby-th",
       "featured_image": [
         "yabby/freshwater-yabby1",
@@ -253,7 +337,13 @@
     },
     {
       "title": "Hydra",
-      "cssClasses": "item nonmicro noshell nolegs notail veryTol",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "nolegs",
+        "notail",
+        "veryTol"
+      ],
       "thumbnail": "hydra-th",
       "featured_image": [
         "hydra/hydra1",
@@ -273,7 +363,13 @@
     },
     {
       "title": "Leech",
-      "cssClasses": "item nonmicro noshell nolegs notail veryTol",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "nolegs",
+        "notail",
+        "veryTol"
+      ],
       "thumbnail": "leech-th",
       "featured_image": [
         "leech/leech1",
@@ -291,7 +387,13 @@
     },
     {
       "title": "Mayfly",
-      "cssClasses": "item nonmicro noshell threepairs threetail verySens",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "threepairs",
+        "threetail",
+        "verySens"
+      ],
       "thumbnail": "mayfly-th",
       "featured_image": [
         "mayfly/mayfly-nymph1",
@@ -311,7 +413,13 @@
     },
     {
       "title": "Mosquito Larva",
-      "cssClasses": "item nonmicro noshell nolegs notail veryTol",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "nolegs",
+        "notail",
+        "veryTol"
+      ],
       "thumbnail": "mosquito-th",
       "featured_image": [
         "mosquito/mosquito-larva1",
@@ -332,7 +440,13 @@
     },
     {
       "title": "Non-Biting Midge",
-      "cssClasses": "item nonmicro noshell nolegs notail tolerant",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "nolegs",
+        "notail",
+        "tolerant"
+      ],
       "thumbnail": "nonBitingMidge-th",
       "featured_image": [
         "nonBiting-midge/nonBiting-midge-larva1",
@@ -353,7 +467,13 @@
     },
     {
       "title": "Diving Beetle",
-      "cssClasses": "item nonmicro noshell threepairs notail veryTol",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "threepairs",
+        "notail",
+        "veryTol"
+      ],
       "thumbnail": "divingBeetle-th",
       "featured_image": [
         "diving-beetle/diving-beetle1",
@@ -372,7 +492,13 @@
     },
     {
       "title": "Rifle Beetle",
-      "cssClasses": "item nonmicro noshell threepairs notail sensitive",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "threepairs",
+        "notail",
+        "sensitive"
+      ],
       "thumbnail": "rifleBeetle-th",
       "featured_image": [
         "rifle-beetle/riflebeetle1",
@@ -390,7 +516,13 @@
     },
     {
       "title": "Scav Water Beetle",
-      "cssClasses": "item nonmicro noshell threepairs notail veryTol",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "threepairs",
+        "notail",
+        "veryTol"
+      ],
       "thumbnail": "scavBeetle-th",
       "featured_image": [
         "scav-beetle/scav-beetle1",
@@ -409,7 +541,13 @@
     },
     {
       "title": "Scud",
-      "cssClasses": "item nonmicro noshell fourpairs notail veryTol",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "fourpairs",
+        "notail",
+        "veryTol"
+      ],
       "thumbnail": "scud-th",
       "featured_image": [
         "scud/scud1",
@@ -428,7 +566,13 @@
     },
     {
       "title": "Seed Shrimp",
-      "cssClasses": "item micro noshell fourpairs notail tolerant",
+      "properties": [
+        "micro",
+        "noshell",
+        "fourpairs",
+        "notail",
+        "tolerant"
+      ],
       "thumbnail": "seedShrimp-th",
       "featured_image": [
         "seed-shrimp/Seed-Shrimp1",
@@ -446,7 +590,13 @@
     },
     {
       "title": "Slater",
-      "cssClasses": "item nonmicro noshell fourpairs notail veryTol",
+      "properties": [
+        "micro",
+        "noshell",
+        "fourpairs",
+        "notail",
+        "veryTol"
+      ],
       "thumbnail": "slater-th",
       "featured_image": [
         "slater/slater1"
@@ -463,7 +613,13 @@
     },
     {
       "title": "Stonefly Nymph",
-      "cssClasses": "item nonmicro noshell threepairs twotail verySens",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "threepairs",
+        "twotail",
+        "verySens"
+      ],
       "thumbnail": "stonefly-th",
       "featured_image": [
         "stonefly-larva/stonefly-larva1",
@@ -482,7 +638,13 @@
     },
     {
       "title": "Toad Bug",
-      "cssClasses": "item nonmicro noshell threepairs notail tolerant",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "threepairs",
+        "notail",
+        "tolerant"
+      ],
       "thumbnail": "toadbug-th",
       "featured_image": [
         "toadbug/toadbug1",
@@ -499,7 +661,13 @@
     },
     {
       "title": "Toebiter",
-      "cssClasses": "item nonmicro noshell threepairs notail sensitive",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "threepairs",
+        "notail",
+        "sensitive"
+      ],
       "thumbnail": "toebiter-th",
       "featured_image": [
         "toebiter/toebiter1",
@@ -519,7 +687,13 @@
     },
     {
       "title": "Water Boatman",
-      "cssClasses": "item nonmicro noshell threepairs notail veryTol",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "threepairs",
+        "notail",
+        "veryTol"
+      ],
       "thumbnail": "boatman-th",
       "featured_image": [
         "boatman/water-boatman1",
@@ -537,7 +711,13 @@
     },
     {
       "title": "Water Flea",
-      "cssClasses": "item micro noshell nolegs notail tolerant",
+      "properties": [
+        "micro",
+        "noshell",
+        "nolegs",
+        "notail",
+        "tolerant"
+      ],
       "thumbnail": "waterflea-th",
       "featured_image": [
         "water-flea/water-flea1",
@@ -557,7 +737,13 @@
     },
     {
       "title": "Water Measurer",
-      "cssClasses": "item nonmicro noshell threepairs onetail tolerant",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "threepairs",
+        "onetail",
+        "tolerant"
+      ],
       "thumbnail": "measurer-th",
       "featured_image": [
         "measurer/water-measurer1",
@@ -577,7 +763,13 @@
     },
     {
       "title": "Water Mite",
-      "cssClasses": "item nonmicro noshell fourpairs notail sensitive",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "fourpairs",
+        "notail",
+        "sensitive"
+      ],
       "thumbnail": "watermite-th",
       "featured_image": [
         "water-mite/water-mite1",
@@ -597,7 +789,13 @@
     },
     {
       "title": "Water Penny",
-      "cssClasses": "item nonmicro noshell nolegs notail sensitive",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "nolegs",
+        "notail",
+        "sensitive"
+      ],
       "thumbnail": "waterpenny-th",
       "featured_image": [
         "waterpenny/water-penny1"
@@ -615,7 +813,13 @@
     },
     {
       "title": "Water Scorpion",
-      "cssClasses": "item nonmicro noshell threepairs onetail veryTol",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "threepairs",
+        "onetail",
+        "veryTol"
+      ],
       "thumbnail": "scorpion-th",
       "featured_image": [
         "scorpion/water-scorpion1",
@@ -634,7 +838,15 @@
     },
     {
       "title": "Water Spider",
-      "cssClasses": "item nonmicro noshell fourpairs nowings notail veryTol",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "fourpairs",
+        "nowings",
+        // not sure why nowings property is here...
+        "notail",
+        "veryTol"
+      ],
       "thumbnail": "waterSpider-th",
       "featured_image": [
         "spider/water-spider1",
@@ -654,7 +866,13 @@
     },
     {
       "title": "Water Strider",
-      "cssClasses": "nonmicro noshell threepairs notail tolerant",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "threepairs",
+        "notail",
+        "tolerant"
+      ],
       "thumbnail": "strider-th",
       "featured_image": [
         "strider/water-strider1",
@@ -673,7 +891,13 @@
     },
     {
       "title": "Water Treader",
-      "cssClasses": "nonmicro noshell threepairs notail tolerant",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "threepairs",
+        "notail",
+        "tolerant"
+      ],
       "thumbnail": "treader-th",
       "featured_image": [
         "treader/water-treader1",
@@ -693,7 +917,13 @@
     },
     {
       "title": "Whirligig Beetle",
-      "cssClasses": "nonmicro noshell threepairs notail tolerant",
+      "properties": [
+        "nonmicro",
+        "noshell",
+        "threepairs",
+        "notail",
+        "tolerant"
+      ],
       "thumbnail": "whirligig-th",
       "featured_image": [
         "whirligig/whirligig-beetle1",
