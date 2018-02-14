@@ -182,8 +182,8 @@
       <ion-col style="background: white;">
         <ion-grid id="container">
           <ion-row>
-            <ion-col col-2 *ngFor="let macro of allMacros" (click)="goToMacroDetailsPage(macro)" class="item" [attr.data-groups]="macro.cssClasses">
-              <ion-card>
+            <ion-col *ngFor="let macro of allMacros" col-2 (click)="goToMacroDetailsPage(macro)" class="item">
+              <ion-card [attr.data-groups]="macro.properties">
                 <img src="../assets/imgs/specimens/thumbs/{{macro.thumbnail}}.jpg"/>
                 <ion-card-content>
                   <ion-card-title>

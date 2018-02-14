@@ -70,6 +70,7 @@ export class FilterPage {
     }
 
   public allMacros = [];
+
   constructor(private specimensProvider: SpecimensProvider, private http: Http, public navCtrl: NavController) {
 
       function resetCheckboxes()
