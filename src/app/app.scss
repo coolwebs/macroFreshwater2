@@ -28,15 +28,10 @@
   font-family: 'architect';
   src: url("../assets/fonts/ArchitectsDaughter-Regular.ttf") format("truetype");
 }
-@font-face {
-  font-family: 'nova';
-  src: url("../assets/fonts/NovaRound.ttf") format("truetype");
-}
 
 $font-fingerpaint: 'fingerpaint', cursive, sans-serif;
 $font-doppio: 'doppio', cursive, sans-serif;
 $font-architect: 'architect', cursive, sans-serif;
-$font-nova: 'nova', cursive, sans-serif;
 
 ion-header {
   background: #5e87b0;
@@ -58,4 +53,8 @@ ion-header {
     background: #5e87b0;
   }
 
+}
+
+h2 {
+  font-family: $font-architect;
 }
