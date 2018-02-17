@@ -24,25 +24,6 @@ export class LocatorPage {
     // Load the google map
     this.loadMap();
 
-    var shuffleInstance = new Shuffle(document.getElementById('grid'), {
-      itemSelector: '.js-item',
-      sizer: '.js-shuffle-sizer'
-    });
-
-    $('#filter li a').click(function (e) {
-      e.preventDefault();
-
-      // set active class
-      $('#filter li a').removeClass('active');
-      $(this).addClass('active');
-
-      // get group name from clicked item
-      var groupName = $(this).attr('data-group');
-      console.log(groupName);
-
-      // reshuffle grid
-      shuffleInstance.filter( groupName );
-    });
   }
 
   // Function to add marker at current location
@@ -80,14 +61,12 @@ export class LocatorPage {
       // Define a variable to hold the lattitude and longitude coords
       let latLng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
 
-      // Define a variable to hold the current altitude reading
-      // let locAltitude = position.coords.altitude;
-      // console.log(locAltitude);
-
       // Build the map and setup the maps api options
       let mapOptions = {
         center: latLng,
         zoom: 15,
+        timeout: 5000,
+        maximumAge: 3000,
         enableHighAccuracy: true,
         mapTypeId: google.maps.MapTypeId.ROADMAP
       }
@@ -95,7 +74,18 @@ export class LocatorPage {
       this.map = new google.maps.Map(this.mapElement.nativeElement, mapOptions);
       this.addMarker(this.map);
 
-      console.log(position.coords.altitude);
+      let myGeoCoords;
+      myGeoCoords = document.getElementById('geoCoords');
+
+      myGeoCoords.innerHTML = '<h2>Detailed Gelocation information</h2><table class="geoTable"><tr><td class="noborder" border="0" style="background-color: #f9f9f9;"></td><th>Latitude</th><th>Longitude</th><th>Accuracy</th><th>Timestamp</th></tr>' +
+          '<tr><td class="head">Data Value</td>' +
+          '<td class="centre">' + position.coords.latitude  + '</td>' +
+          '<td class="centre">' + position.coords.longitude + '</td>' +
+          '<td class="centre">'  + position.coords.accuracy + '</td>' +
+          '<td class="centre">' + new Date(position.timestamp) + '</td>'+
+          '<td><button ion-button (click)="loadMap()"><ion-icon name="reset"></ion-icon>Reset GPS Location</button></td></tr>';
+          '</table>' +
+              '<button ion-button (click)="loadMap()"><ion-icon name="reset"></ion-icon>Reset GPS Location</button>';
 
     }, (err) => {
       console.log(err);
