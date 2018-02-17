@@ -10,7 +10,6 @@ import { ContributorsPage } from '../pages/contributors/contributors';
 import { GlossaryPage } from '../pages/glossary/glossary';
 import { LocatorPage } from '../pages/locator/locator';
 import { TabsPage } from '../pages/tabs/tabs';
-import { InAppBrowser } from '@ionic-native/in-app-browser';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -18,6 +17,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { HttpModule } from '@angular/http';
 import { SpecimensProvider } from '../providers/specimens/specimens';
 import { SearchPipe } from '../pipes/search/search';
+import { Geolocation } from '@ionic-native/geolocation';
+import { InAppBrowser } from '@ionic-native/in-app-browser';
 
 @NgModule({
   declarations: [
@@ -52,6 +53,7 @@ import { SearchPipe } from '../pipes/search/search';
     StatusBar,
     SplashScreen,
     InAppBrowser,
+    Geolocation,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
   ]
 })

@@ -1,4 +1,36 @@
 page-locator {
+
+  h1 {
+    text-align: center;
+  }
+  #map {
+    width: 100%;
+    height: 80%;
+  }
+  #geoCoords {
+
+    margin-top: 20px;
+
+    h2 {
+      text-align: center;
+    }
+
+    .geoTable {
+      border: 1px solid #ccc;
+      width: 100%;
+      td, th {
+        padding: 10px;
+      }
+      th {
+        background: #eee;
+      }
+      td {
+        text-align: center;
+        cell-spacing: 5px;
+        border: 1px solid #ccc;
+      }
+    }
+  }
   #grid {
     position: relative;
     overflow: hidden;
