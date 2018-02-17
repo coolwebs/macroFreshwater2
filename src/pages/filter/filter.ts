@@ -105,15 +105,14 @@ export class FilterPage {
 		});
 	}
 
-    
-    resetFilters() {
-        //this.size = "";
-        //this.shell = "";
-        //this.legs = "";
-        //this.tail = "";
-       // this.sensitive = "";
-       //document.getElementById('all').checked = true;
-        this.navCtrl.setRoot(this.navCtrl.getActive().component);
+    resetFilter() {
+		this.size = "";
+		this.shell = "";
+		this.legs = "";
+		this.tail = "";
+		this.sensitive = "";
+       	//document.getElementById('all').checked = true;
+        // this.navCtrl.setRoot(this.navCtrl.getActive().component);
 	}
 
 
