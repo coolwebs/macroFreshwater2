@@ -22,7 +22,7 @@ export class MacroDetailPage {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad MacroDetailPage');
+    //console.log('ionViewDidLoad MacroDetailPage');
   }
 
 }
