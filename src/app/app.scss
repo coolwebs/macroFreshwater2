@@ -15,9 +15,47 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 
-.toolbar-background-md {
-  background: #5e87b0;
+// Load fonts to use within app
+@font-face {
+  font-family: 'fingerpaint';
+  src: url("../assets/fonts/FingerPaint-Regular.ttf") format("truetype");
 }
-.toolbar-title-md {
-  color: white;
+@font-face {
+  font-family: 'doppio';
+  src: url("../assets/fonts/DoppioOne-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'architect';
+  src: url("../assets/fonts/ArchitectsDaughter-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'nova';
+  src: url("../assets/fonts/NovaRound.ttf") format("truetype");
+}
+
+$font-fingerpaint: 'fingerpaint', cursive, sans-serif;
+$font-doppio: 'doppio', cursive, sans-serif;
+$font-architect: 'architect', cursive, sans-serif;
+$font-nova: 'nova', cursive, sans-serif;
+
+ion-header {
+  background: #5e87b0;
+
+  ion-title {
+    font-family: $font-doppio;
+  }
+
+  .toolbar-title {
+    color: white;
+    line-height: 2;
+    background-image: url("../assets/icon/freshwater-logo.png");
+    background-repeat: no-repeat;
+    background-position: 31% 50%;
+    background-size: 32px 32px;
+    height: 80%;
+  }
+  .toolbar-background {
+    background: #5e87b0;
+  }
+
 }
