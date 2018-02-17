@@ -1,13 +1,7 @@
 [
     {
       "title": "Back Swimmer",
-      "properties": [
-        "['nonmicro'",
-        "'noshell'",
-        "'threepairs'",
-        "'notail'",
-        "'veryTol']"
-      ],
+      "cssClasses": "item nonmicro noshell threepairs notail veryTol",
       "thumbnail": "backswimmer-th",
       "featured_image": [
         "back-swimmer/Backswimmer1-big",
@@ -23,17 +17,16 @@
       "size": "Up to 11mm",
       "habitat": "Ponds, farm dams, and pools in slow-flowing streams",
       "diet": "<strong>Carnivorous</strong> (piercers) &ndash; extract body juices of other insects, tadpoles and small fish through pointed sucking mouth parts",
-      "features": "Large eyes to assist with catching prey; elongated body; swim on their backs"
+      "features": "Large eyes to assist with catching prey; elongated body; swim on their backs",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "threepairs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "veryTol"
     },
     {
       "title": "Biting Midge Larva",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "nolegs",
-        "notail",
-        "tolerant"
-      ],
+      "cssClasses": "item nonmicro noshell nolegs notail tolerant",
       "thumbnail": "bitingMidge-th",
       "featured_image": [
         "biting-midge/biting-midge1",
@@ -48,17 +41,16 @@
       "size": "Up to 12mm",
       "habitat": "Wet sand and mud at stream, lake or pond margins",
       "diet": "<strong>Carnivorous</strong> (engulfers, collectors or gatherers) &ndash; algae and other debris; other animals",
-      "features": "Shaped like a worm with bead-like segments; thin and soft-bodies, usually with a hardened head capsule; no prominent gills; swims like an eel or snake"
+      "features": "Shaped like a worm with bead-like segments; thin and soft-bodies, usually with a hardened head capsule; no prominent gills; swims like an eel or snake",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "nolegs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "tolerant"
     },
     {
       "title": "Blackfly Larva",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "nolegs",
-        "notail",
-        "tolerant"
-      ],
+      "cssClasses": "item nonmicro noshell nolegs notail tolerant",
       "thumbnail": "blackfly-th",
       "featured_image": [
         "blackfly/blackfly1"
@@ -72,17 +64,16 @@
       "size": "Up to 7mm",
       "habitat": "Attached to rocks and boulders of fast flowing waters",
       "diet": "<strong>Omnivorous</strong> (collectors and filter feeders) &ndash; algae and other organic debris from the water",
-      "features": "Mouth brushes and cylindrical bodies; a ring or many sharp hooks on the end of the body used to attach to the <strong>substrate;</strong> silk used to attach to <strong>substrate</strong>"
+      "features": "Mouth brushes and cylindrical bodies; a ring or many sharp hooks on the end of the body used to attach to the <strong>substrate;</strong> silk used to attach to <strong>substrate</strong>",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "nolegs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "tolerant"
     },
     {
       "title": "Caddisfly",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "threepairs",
-        "notail",
-        "verySens"
-      ],
+      "cssClasses": "item nonmicro noshell threepairs notail verySens",
       "thumbnail": "caddisfly-th",
       "featured_image": [
         "caddisfly/caddisfly1",
@@ -97,17 +88,16 @@
       "size": "1.5 &ndash; 40mm",
       "habitat": "In sediment, on rocks and branches, and among algae and aquatic plants in streams, ponds and lakes",
       "diet": "<strong>Carnivorous, herbivorous</strong> or <strong>detritivorous</strong> depending on species &ndash; algae scraped from the surface or surrounding rocks; material filtered from currents using specially constructed conical webs; insects and <strong>crustaceans</strong>",
-      "features": "Two main types, divided on the basis of behaviour and structure. One group constructs a portable case out of sand, algae, plant material and <strong>silt</strong> (cases often look like sticks) and are generally found in still  waters where they feed on algae and plants. The second group does not have a case, or has a fixed retreat. Some are common in fast-flowing water where they feed on other animals (often building a net of silk across the stream to capture their food). Some <strong>species</strong> will swim in their case; most just crawl around. Some of the caseless will move away backwards"
+      "features": "Two main types, divided on the basis of behaviour and structure. One group constructs a portable case out of sand, algae, plant material and <strong>silt</strong> (cases often look like sticks) and are generally found in still  waters where they feed on algae and plants. The second group does not have a case, or has a fixed retreat. Some are common in fast-flowing water where they feed on other animals (often building a net of silk across the stream to capture their food). Some <strong>species</strong> will swim in their case; most just crawl around. Some of the caseless will move away backwards",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "threepairs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "verySens"
     },
     {
       "title": "Creeping Water Beetle",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "threepairs",
-        "notail",
-        "veryTol"
-      ],
+      "cssClasses": "item nonmicro noshell threepairs notail veryTol",
       "thumbnail": "waterBeetle-th",
       "featured_image": [
         "biting-midge/biting-midge1",
@@ -123,17 +113,16 @@
       "size": "Less than 11mm",
       "habitat": "Inhabit still and slow-flowing waters",
       "diet": "<strong>Carnivorous</strong> &ndash; Catch and hold their prey with their raptorial legs",
-      "features": "Flattened oval body and head. Their forelegs are modified for grasping with robust femurs and simplified tibiae and tarsi for holding the body of their prey. Most species have a striped pattern along their sides."
+      "features": "Flattened oval body and head. Their forelegs are modified for grasping with robust femurs and simplified tibiae and tarsi for holding the body of their prey. Most species have a striped pattern along their sides.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "threepairs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "veryTol"
     },
     {
       "title": "Cyclops",
-      "properties": [
-        "micro",
-        "noshell",
-        "nolegs",
-        "notail",
-        "veryTol"
-      ],
+      "cssClasses": "item micro noshell nolegs notail veryTol",
       "thumbnail": "cyclopoid-th",
       "featured_image": [
         "cyclops/cyclops1",
@@ -147,17 +136,16 @@
       "size": "Less than 2mm",
       "habitat": "Predominantly <strong>benthic</strong>",
       "diet": "<strong>Herbivorous</strong> or <strong>detritivorous</strong> &ndash; feed on algae and bacteria. Some larger cyclopoids are <strong>predatory</strong>, feeding on a mix of <strong>zooplankton</strong> including other small <strong>Copepods</strong>",
-      "features": "Bullet-shaped body which is made up of a head segment, which is slightly longer than the other segments, followed by a simple thorax of cylindrical segments, and a slightly thinner abdominal section. Also have long antennae and a single dorsal eye. Cyclopoids move using oar-like strokes of their antennae in open water along with pulses of their multiple legs."
+      "features": "Bullet-shaped body which is made up of a head segment, which is slightly longer than the other segments, followed by a simple thorax of cylindrical segments, and a slightly thinner abdominal section. Also have long antennae and a single dorsal eye. Cyclopoids move using oar-like strokes of their antennae in open water along with pulses of their multiple legs.",
+	  "filter_size": "micro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "nolegs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "veryTol"
     },
     {
       "title": "Damselfly",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "threepairs",
-        "threetail",
-        "tolerant"
-      ],
+      "cssClasses": "item nonmicro noshell threepairs threetail tolerant",
       "thumbnail": "damselfly-th",
       "featured_image": [
         "damselfly-nymph/damselfy-nymph1",
@@ -173,28 +161,26 @@
       "size": "Up to 35mm including gills",
       "habitat": "Under stones and among reeds in slow-flowing pools",
       "diet": "Carnivorous</strong> &ndash; aquatic insects and crustaceans",
-      "features": "Slender bodies with three leaf-like gills at the rear of the abdomen"
+      "features": "Slender bodies with three leaf-like gills at the rear of the abdomen",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "threepairs",
+	  "filter_tail": "threetail",
+	  "filter_sensitivity": "tolerant"
     },
     {
       "title": "Dragonfly",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "threepairs",
-        "notail",
-        "tolerant"
-      ],
-      "thumbnail": "dragonfly-th"
+      "cssClasses": "item nonmicro noshell threepairs notail tolerant",
+      "thumbnail": "dragonfly-th",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "threepairs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "tolerant"
     },
     {
       "title": "Flatworm",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "nolegs",
-        "notail",
-        "veryTol"
-      ],
+      "cssClasses": "item nonmicro noshell nolegs notail veryTol",
       "thumbnail": "flatworm-th",
       "featured_image": [
         "flatworm/flatworm1",
@@ -208,17 +194,16 @@
       "size": "Up to 30mm",
       "habitat": "Substrate or the underside of the water surface film &ndash; in springs, ponds, brooks, ditches, marshes and lakes",
       "diet": "<strong>Carnivorous</strong> &ndash; soft or decomposing animal matter",
-      "features": "Elongated body &ndash; flattened or cylindrical; dark eyes within white spots that can often be seen; blind gut that allows them to feed and remove waste from the same opening."
+      "features": "Elongated body &ndash; flattened or cylindrical; dark eyes within white spots that can often be seen; blind gut that allows them to feed and remove waste from the same opening.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "nolegs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "veryTol"
     },
     {
       "title": "Freshwater Mussel",
-      "properties": [
-        "nonmicro",
-        "twoshell",
-        "nolegs",
-        "notail",
-        "veryTol"
-      ],
+      "cssClasses": "item nonmicro twoshell nolegs notail veryTol",
       "thumbnail": "mussel-th",
       "featured_image": [
         "mussel/freshwater-mussel1",
@@ -232,17 +217,16 @@
       "size": "10 &ndash; 150mm",
       "habitat": "Variety or unpolluted inland waters",
       "diet": "<strong>Filter feeding</strong> &ndash; food particles such as <strong>zooplankton, phytoplankton</strong>, and organic <strong>detritus</strong> from the water",
-      "features": "Shell consists of two separate valves hinged together."
+      "features": "Shell consists of two separate valves hinged together.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "twoshell",
+	  "filter_legs": "nolegs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "veryTol"
     },
     {
       "title": "Segmented Worm",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "nolegs",
-        "notail",
-        "veryTol"
-      ],
+      "cssClasses": "item nonmicro noshell nolegs notail veryTol",
       "thumbnail": "worm-th",
       "featured_image": [
         "segmented-worm/segmented-worm1",
@@ -256,17 +240,16 @@
       "size": "1&mdash;30mm",
       "habitat": "Almost all water bodies",
       "diet": "<strong>Detritivorous</strong> and <strong>carnivorous</strong> &ndash; small pieces of dead and decomposing plants; animals including other invertebrates",
-      "features": "Usually red or brown; stiff, needle-like structures (setae) located on the top and bottom of each of the body segments; similar to earthworms in appearance and movement."
+      "features": "Usually red or brown; stiff, needle-like structures (setae) located on the top and bottom of each of the body segments; similar to earthworms in appearance and movement.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "nolegs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "veryTol"
     },
     {
       "title": "Freshwater Shrimp",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "fourpairs",
-        "onetail",
-        "tolerant"
-      ],
+      "cssClasses": "item nonmicro noshell fourpairs onetail tolerant",
       "thumbnail": "shrimp-th",
       "featured_image": [
         "shrimp/freshwater-shrimp1",
@@ -282,17 +265,16 @@
       "size": "Up to 65mm",
       "habitat": "Lowland rivers, streams and standing fresh waters",
       "diet": "<strong>Omnivorous</strong> &ndash; animal and plant material",
-      "features": "Fanned tail. Shrimp: bumpy appearance of <strong>rostrum</strong>; similar first two pairs of legs with tufts of long setae on their tips; crawl over creek bed, or beat abdomen to swim rapidly backwards. Prawn: elongated second pair of legs."
+      "features": "Fanned tail. Shrimp: bumpy appearance of <strong>rostrum</strong>; similar first two pairs of legs with tufts of long setae on their tips; crawl over creek bed, or beat abdomen to swim rapidly backwards. Prawn: elongated second pair of legs.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "fourpairs",
+	  "filter_tail": "onetail",
+	  "filter_sensitivity": "tolerant"
     },
     {
       "title": "Freshwater Snail",
-      "properties": [
-        "nonmicro",
-        "oneshell",
-        "nolegs",
-        "notail",
-        "veryTol"
-      ],
+      "cssClasses": "item nonmicro oneshell nolegs notail veryTol",
       "thumbnail": "snail-th",
       "featured_image": [
         "snail/freshwater-snail1",
@@ -306,17 +288,16 @@
       "size": "3 &ndash; 65mm long",
       "habitat": "Among weeds and stones in slow and still sections of the creek",
       "diet": "<strong>Herbivorous</strong> &ndash; algae from the surface of rocks and plants",
-      "features": "Coiled or limpet-like shell."
+      "features": "Coiled or limpet-like shell.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "oneshell",
+	  "filter_legs": "nolegs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "veryTol"
     },
     {
       "title": "Freshwater Yabby",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "fourpairs",
-        "onetail",
-        "tolerant"
-      ],
+      "cssClasses": "item nonmicro noshell fourpairs onetail tolerant",
       "thumbnail": "yabby-th",
       "featured_image": [
         "yabby/freshwater-yabby1",
@@ -333,17 +314,16 @@
       "size": "15-20cm long",
       "habitat": "Slow-flowing and still water",
       "diet": "<strong>Omnivorous</strong> &ndash; aplant and animal matter",
-      "features": "Prominent beak-like extension at the front of the head; well-developed abdomen with tail fan (used to swim backwards quickly); well-developed legs and claws; tail without spines; dormant in burrows over winter and can survive in burrows if surface water dries out; can walk over land from one water body to the next."
+      "features": "Prominent beak-like extension at the front of the head; well-developed abdomen with tail fan (used to swim backwards quickly); well-developed legs and claws; tail without spines; dormant in burrows over winter and can survive in burrows if surface water dries out; can walk over land from one water body to the next.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "oneshell",
+	  "filter_legs": "fourpairs",
+	  "filter_tail": "onetail",
+	  "filter_sensitivity": "tolerant"
     },
     {
       "title": "Hydra",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "nolegs",
-        "notail",
-        "veryTol"
-      ],
+      "cssClasses": "item nonmicro noshell nolegs notail veryTol",
       "thumbnail": "hydra-th",
       "featured_image": [
         "hydra/hydra1",
@@ -359,17 +339,16 @@
       "size": "1-25mm long",
       "habitat": "Shallow, turbulent or fast-moving water. They attach to stones, twigs or <strong>vegetation</strong>, and may live alone or in colonies",
       "diet": "<strong>Carnivorous</strong> &ndash; small insect, copepods, aquatic worms and even small fish",
-      "features": "Three to eight <strong>tentacles</strong>; green, brown, white, grey, tan or red in colour."
+      "features": "Three to eight <strong>tentacles</strong>; green, brown, white, grey, tan or red in colour.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "nolegs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "veryTol"
     },
     {
       "title": "Leech",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "nolegs",
-        "notail",
-        "veryTol"
-      ],
+      "cssClasses": "item nonmicro noshell nolegs notail veryTol",
       "thumbnail": "leech-th",
       "featured_image": [
         "leech/leech1",
@@ -383,17 +362,16 @@
       "size": "5 &ndash; 50mm long",
       "habitat": "Freshwater ponds, marshes, lakes and slow streams; among plants, stones and debris",
       "diet": "<strong>Carnivorous</strong> and <strong>parasitic</strong> &ndash; animal matter, snails, insects and other small invertebrates; blood of frogs, fish and turtles.",
-      "features": "Bodies with 34 segments; red, yellow and orange stripes; sucker located at the rear end of the body."
+      "features": "Bodies with 34 segments; red, yellow and orange stripes; sucker located at the rear end of the body.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "nolegs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "veryTol"
     },
     {
       "title": "Mayfly",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "threepairs",
-        "threetail",
-        "verySens"
-      ],
+      "cssClasses": "item nonmicro noshell threepairs threetail verySens",
       "thumbnail": "mayfly-th",
       "featured_image": [
         "mayfly/mayfly-nymph1",
@@ -409,17 +387,16 @@
       "size": "2-32mm long",
       "habitat": "Varies from standing water to rapids &ndash; streams, rivers, ponds, reservoirs, ditches and swamps; under rocks and logs in streams; free-swimming in ponds.",
       "diet": "Varies depending on species &ndash; algal films scraped from the surface of reeds and rocks (<strong>herbivorous</strong>); small pieces of decaying animal and plant material (<strong>detrivtiorous</strong> &ndash; scavengers, shredders or collectors).",
-      "features": "Three long tails (cerci) at the end of the abdomen; gills on the abdominal segments that can be waved through the water to gain oxygen."
+      "features": "Three long tails (cerci) at the end of the abdomen; gills on the abdominal segments that can be waved through the water to gain oxygen.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "threepairs",
+	  "filter_tail": "threetail",
+	  "filter_sensitivity": "verySens"
     },
     {
       "title": "Mosquito Larva",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "nolegs",
-        "notail",
-        "veryTol"
-      ],
+      "cssClasses": "item nonmicro noshell nolegs notail veryTol",
       "thumbnail": "mosquito-th",
       "featured_image": [
         "mosquito/mosquito-larva1",
@@ -436,17 +413,16 @@
       "size": "3-6mm long",
       "habitat": "Still water of any depth.",
       "diet": "<em>Larva</em>: <strong>algae</strong> or organic debris.<br /><em>Pupa:</em> (transformation stage between larva and adult) no feeding.",
-      "features": "<em>Larva:</em> no legs (called &lsquo;wrigglers&rsquo;); thorax wider than the head or <strong>abdomen</strong>; mouth brushes; <strong>siphon</strong> at end of <strong>abdomen</strong> for breathing.<br /><em>Pupa:</em> tubes on thorax for breathing."
+      "features": "<em>Larva:</em> no legs (called &lsquo;wrigglers&rsquo;); thorax wider than the head or <strong>abdomen</strong>; mouth brushes; <strong>siphon</strong> at end of <strong>abdomen</strong> for breathing.<br /><em>Pupa:</em> tubes on thorax for breathing.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "nolegs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "veryTol"
     },
     {
       "title": "Non-Biting Midge",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "nolegs",
-        "notail",
-        "tolerant"
-      ],
+      "cssClasses": "item nonmicro noshell nolegs notail tolerant",
       "thumbnail": "nonBitingMidge-th",
       "featured_image": [
         "nonBiting-midge/nonBiting-midge-larva1",
@@ -463,17 +439,16 @@
       "size": "Up to 30mm",
       "habitat": "<strong>Sediments</strong> of virtually all aquatic habitats; found in large numbers in environments with low oxygen concentrations as well as in healthy environments.",
       "diet": "<strong>Omnivorous, carnivorous</strong> or <strong>detritivorous</strong> depending on species &ndash; <strong>algae</strong> and other debris; animal matter.",
-      "features": "Long, cylindrical and worm-like; visible head; usually a pair of small legs (called prolegs) on first thoracic and last <strong>abdominal</strong> segment; characteristic figure-of-eight thrashing motion, and backwards motion when attempts are made to pick them up; one group known as bloodworms are light or dark red in colour and are frequently found in large numbers in polluted waters."
+      "features": "Long, cylindrical and worm-like; visible head; usually a pair of small legs (called prolegs) on first thoracic and last <strong>abdominal</strong> segment; characteristic figure-of-eight thrashing motion, and backwards motion when attempts are made to pick them up; one group known as bloodworms are light or dark red in colour and are frequently found in large numbers in polluted waters.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "nolegs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "tolerant"
     },
     {
       "title": "Diving Beetle",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "threepairs",
-        "notail",
-        "veryTol"
-      ],
+      "cssClasses": "item nonmicro noshell threepairs notail veryTol",
       "thumbnail": "divingBeetle-th",
       "featured_image": [
         "diving-beetle/diving-beetle1",
@@ -488,17 +463,16 @@
       "size": "<em>Adult</em>: 3-35mm long. <em>Larva</em>: up to 55mm",
       "habitat": "Ponds and slow-flowing streams; adults are often the first to colonise new habitats.",
       "diet": "<strong>Carnivorous</strong> &ndash; small <strong>invertebrates</strong> or even small <strong>vertebrates</strong> including tadpoles, frogs and fish fry.",
-      "features": "<em>Adult</em>: long and slender antennae; flat, fringe-haired hind legs that act as oars. <br /><em>Larva:</em> elongated and slender; rounded, large head with prominent mouth parts."
+      "features": "<em>Adult</em>: long and slender antennae; flat, fringe-haired hind legs that act as oars. <br /><em>Larva:</em> elongated and slender; rounded, large head with prominent mouth parts.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "threepairs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "veryTol"
     },
     {
       "title": "Rifle Beetle",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "threepairs",
-        "notail",
-        "sensitive"
-      ],
+      "cssClasses": "item nonmicro noshell threepairs notail sensitive",
       "thumbnail": "rifleBeetle-th",
       "featured_image": [
         "rifle-beetle/riflebeetle1",
@@ -512,17 +486,16 @@
       "size": "<em>Adult</em>: up to 5mm.<br /><em>Larva</em>: up to 6mm.",
       "habitat": "Both adults and larvae are aquatic; stones, logs, or debris in fast-flowing sections of streams; prefer cool, high-oxygen water typical of upland streams.",
       "diet": "<strong>Herbivorous</strong> &ndash; adults and larvae feed on plant material.",
-      "features": "<em>Adult</em>: long <strong>tarsal</strong> claws and long, slender <strong>antennae</strong>.<br /><em>Larva</em>: cylindrical bodies; generally brown or dark-coloured; gills extend from a chamber at the point of the last <strong>abdominal</strong> segment."
+      "features": "<em>Adult</em>: long <strong>tarsal</strong> claws and long, slender <strong>antennae</strong>.<br /><em>Larva</em>: cylindrical bodies; generally brown or dark-coloured; gills extend from a chamber at the point of the last <strong>abdominal</strong> segment.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "threepairs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "sensitive"
     },
     {
       "title": "Scav Water Beetle",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "threepairs",
-        "notail",
-        "veryTol"
-      ],
+      "cssClasses": "item nonmicro noshell threepairs notail veryTol",
       "thumbnail": "scavBeetle-th",
       "featured_image": [
         "scav-beetle/scav-beetle1",
@@ -537,17 +510,16 @@
       "size": "<em>Adult</em>: Less than 1mm to over 40mm.<br /><em>Larva</em>: up to 8mm",
       "habitat": "<em>Adult</em>: still waters or quiet areas of flowing water.<br /><em>Larva</em>: among decaying plant material at the margins of the still waters or quiet areas of flowing water.",
       "diet": "<em>Adult</em>: <strong>herbivorous</strong> (collectors, gatherers) &ndash; plant material. <br /><em>Larva</em>: <strong>carnivorous</strong> &ndash; small aquatic animals.",
-      "features": "<em>Adult</em>: dark or dull coloured with a smooth oval shape; <strong>antennae</strong> with seven to nine segments, the last three to five segments wider than the rest.<br /><em>Larva</em>: generally slender and flat; well-developed mouth parts and may have gills on <strong>abdomen</strong>."
+      "features": "<em>Adult</em>: dark or dull coloured with a smooth oval shape; <strong>antennae</strong> with seven to nine segments, the last three to five segments wider than the rest.<br /><em>Larva</em>: generally slender and flat; well-developed mouth parts and may have gills on <strong>abdomen</strong>.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "threepairs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "veryTol"
     },
     {
       "title": "Scud",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "fourpairs",
-        "notail",
-        "veryTol"
-      ],
+      "cssClasses": "item nonmicro noshell fourpairs notail veryTol",
       "thumbnail": "scud-th",
       "featured_image": [
         "scud/scud1",
@@ -562,17 +534,16 @@
       "size": "5-25mm long",
       "habitat": "Typically along the edges of streams; large numbers in the weedy habitat of <strong>wetlands</strong>; occasionally in ponds.",
       "diet": "<strong>Scavenger</strong> &ndash; any dead animals and aquatic vegetation.",
-      "features": "Small, shrimp-like and fast-swimming; seven pairs of legs, the first two adapted for grasping; also known as freshwater sandhoppers."
+      "features": "Small, shrimp-like and fast-swimming; seven pairs of legs, the first two adapted for grasping; also known as freshwater sandhoppers.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "fourpairs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "veryTol"
     },
     {
       "title": "Seed Shrimp",
-      "properties": [
-        "micro",
-        "noshell",
-        "fourpairs",
-        "notail",
-        "tolerant"
-      ],
+      "cssClasses": "item micro noshell fourpairs notail tolerant",
       "thumbnail": "seedShrimp-th",
       "featured_image": [
         "seed-shrimp/Seed-Shrimp1",
@@ -586,17 +557,16 @@
       "size": "0.25-6mm",
       "habitat": "Still to flowing, fresh or saline waters around shallow, weedy habitats. Mostly <strong>benthic</strong>.",
       "diet": "<strong>Herbivorous/detritivorous</strong> filter feeder. Filter the water for plants, <strong>plankton</strong> and rotting materials to feed on.",
-      "features": "Entire body enclosed by two valves of the <strong>carapace</strong>. Propel themselves with an assortment of legs and antennae, which are thrashed around in the gap between the two valves."
+      "features": "Entire body enclosed by two valves of the <strong>carapace</strong>. Propel themselves with an assortment of legs and antennae, which are thrashed around in the gap between the two valves.",
+	  "filter_size": "micro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "fourpairs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "tolerant"
     },
     {
       "title": "Slater",
-      "properties": [
-        "micro",
-        "noshell",
-        "fourpairs",
-        "notail",
-        "veryTol"
-      ],
+      "cssClasses": "item nonmicro noshell fourpairs notail veryTol",
       "thumbnail": "slater-th",
       "featured_image": [
         "slater/slater1"
@@ -609,17 +579,16 @@
       "size": "2-12mm long",
       "habitat": "Isopods inhabit a number of different environments including freshwater streams, pools and lakes and permanent inland saline waters.",
       "diet": "<strong>Detritivorous</strong> &ndash; small pieces of dead and decomposing plants and animals.",
-      "features": "Distinct head and no body shield (carapace); seven pairs of walking legs; slow crawling movement."
+      "features": "Distinct head and no body shield (carapace); seven pairs of walking legs; slow crawling movement.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "fourpairs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "veryTol"
     },
     {
       "title": "Stonefly Nymph",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "threepairs",
-        "twotail",
-        "verySens"
-      ],
+      "cssClasses": "item nonmicro noshell threepairs twotail verySens",
       "thumbnail": "stonefly-th",
       "featured_image": [
         "stonefly-larva/stonefly-larva1",
@@ -634,17 +603,16 @@
       "size": "Up to 40mm",
       "habitat": "On stones in fast-flowing sections of creeks; among reeds and vegetation in slow-flowing pools.",
       "diet": "<strong>Carnivorous, detritivorous</strong> or <strong>herbivorous</strong> depending on species &ndash; animals, dead plant material and decaying organic material.",
-      "features": "Two long tails (cerci) at the end of the abdomen; gills at the posterior end of the abdomen (waved around in still water to gain oxygen); crawling movement; very sensitive to pollution and high sediment loads; most common in streams where flow persists for a minimum of four to five months."
+      "features": "Two long tails (cerci) at the end of the abdomen; gills at the posterior end of the abdomen (waved around in still water to gain oxygen); crawling movement; very sensitive to pollution and high sediment loads; most common in streams where flow persists for a minimum of four to five months.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "threepairs",
+	  "filter_tail": "twotail",
+	  "filter_sensitivity": "verySens"
     },
     {
       "title": "Toad Bug",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "threepairs",
-        "notail",
-        "tolerant"
-      ],
+      "cssClasses": "item nonmicro noshell threepairs notail tolerant",
       "thumbnail": "toadbug-th",
       "featured_image": [
         "toadbug/toadbug1",
@@ -657,17 +625,16 @@
       "size": "10mm",
       "habitat": "Edges of still water bodies and crawl in and out of the water. Prefer moist conditions, such as in rainforests, and may be found at a considerable distance from water.",
       "diet": "<strong>Carnivorous</strong> &ndash; Crawl around looking for suitable victims. Once found something they quickly jump on it, dispatching it with their needle-like mouthparts.",
-      "features": "Wide <strong>prothorax</strong>, bulging eyes and ability to suddenly jump on their prey. Forelegs are scythe-like with widened femora adapted for grasping and holding prey. Adults have wings but rarely fly."
+      "features": "Wide <strong>prothorax</strong>, bulging eyes and ability to suddenly jump on their prey. Forelegs are scythe-like with widened femora adapted for grasping and holding prey. Adults have wings but rarely fly.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "threepairs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "tolerant"
     },
     {
       "title": "Toebiter",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "threepairs",
-        "notail",
-        "sensitive"
-      ],
+      "cssClasses": "item nonmicro noshell threepairs notail sensitive",
       "thumbnail": "toebiter-th",
       "featured_image": [
         "toebiter/toebiter1",
@@ -683,17 +650,16 @@
       "size": "Up to 30mm",
       "habitat": "Riffles of fast-flowing waters amongst cobbles and pebbles, and slow-flowing streams and pools.",
       "diet": "Carnivorous.",
-      "features": "Hard head and <strong>thoracic</strong> segment and a fleshy <strong>abdomen</strong>. Their abdomen has fine hair fringed filaments."
+      "features": "Hard head and <strong>thoracic</strong> segment and a fleshy <strong>abdomen</strong>. Their abdomen has fine hair fringed filaments.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "threepairs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "sensitive"
     },
     {
       "title": "Water Boatman",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "threepairs",
-        "notail",
-        "veryTol"
-      ],
+      "cssClasses": "item nonmicro noshell threepairs notail veryTol",
       "thumbnail": "boatman-th",
       "featured_image": [
         "boatman/water-boatman1",
@@ -707,17 +673,16 @@
       "size": "Up to 10mm",
       "habitat": "Still and slow-flowing pools; on streambeds.",
       "diet": "<strong>Omnivorous &ndash; algae</strong> or other small <strong>organisms</strong>.",
-      "features": "Long, flat, oval-shaped bodies; long, oar-like hind legs."
+      "features": "Long, flat, oval-shaped bodies; long, oar-like hind legs.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "threepairs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "veryTol"
     },
     {
       "title": "Water Flea",
-      "properties": [
-        "micro",
-        "noshell",
-        "nolegs",
-        "notail",
-        "tolerant"
-      ],
+      "cssClasses": "item micro noshell nolegs notail tolerant",
       "thumbnail": "waterflea-th",
       "featured_image": [
         "water-flea/water-flea1",
@@ -733,17 +698,16 @@
       "size": "Up to 10mm",
       "habitat": "Some species are <strong>benthic</strong> (live on/in the bed of a water body), while some reside in the sheltered weedy areas of still or slow-flowing fresh water.",
       "diet": "Various diet depending on the species: some feed on decomposing plant and animal material, some on <strong>plankton</strong> and others only eat plants.",
-      "features": "Have a two shelled body shield that encloses their body and legs but not the head. Movement is started by flicking their <strong>antennae</strong>, resulting in a flicking/jerking motion."
+      "features": "Have a two shelled body shield that encloses their body and legs but not the head. Movement is started by flicking their <strong>antennae</strong>, resulting in a flicking/jerking motion.",
+	  "filter_size": "micro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "nolegs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "tolerant"
     },
     {
       "title": "Water Measurer",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "threepairs",
-        "onetail",
-        "tolerant"
-      ],
+      "cssClasses": "item nonmicro noshell threepairs onetail tolerant",
       "thumbnail": "measurer-th",
       "featured_image": [
         "measurer/water-measurer1",
@@ -759,17 +723,16 @@
       "size": "Up to 150mm",
       "habitat": "Among emergent <strong>vegetation</strong> at the edge of the still waters.",
       "diet": "<strong>Carnivorous</strong> &ndash; small animals associated with the surface film of water.",
-      "features": "Long and very slender body; head as long as the thorax; long legs and feet (tarsi), which assists it to travel across the water surface using surface tension."
+      "features": "Long and very slender body; head as long as the thorax; long legs and feet (tarsi), which assists it to travel across the water surface using surface tension.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "threepairs",
+	  "filter_tail": "onetail",
+	  "filter_sensitivity": "tolerant"
     },
     {
       "title": "Water Mite",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "fourpairs",
-        "notail",
-        "sensitive"
-      ],
+      "cssClasses": "item nonmicro noshell fourpairs notail sensitive",
       "thumbnail": "watermite-th",
       "featured_image": [
         "water-mite/water-mite1",
@@ -785,17 +748,16 @@
       "size": "Up to 2.5mm",
       "habitat": "Most abundant in fresh, standing water that is heavily vegetated, shallow and sheltered.",
       "diet": "<strong>Carnivorous</strong> &ndash; parasitic (piercing, sucking) &ndash; eat small animals, or are parasitic on other aquatic animals.",
-      "features": "Four pairs of legs; another pair of appendages that are used for feeding; no antennae; can be brightly coloured; good swimmers."
+      "features": "Four pairs of legs; another pair of appendages that are used for feeding; no antennae; can be brightly coloured; good swimmers.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "fourpairs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "sensitive"
     },
     {
       "title": "Water Penny",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "nolegs",
-        "notail",
-        "sensitive"
-      ],
+      "cssClasses": "item nonmicro noshell nolegs notail sensitive",
       "thumbnail": "waterpenny-th",
       "featured_image": [
         "waterpenny/water-penny1"
@@ -809,17 +771,16 @@
       "size": "up to 35mm",
       "habitat": "<em>Adults</em>: live in vegetation near the stream edge. Females crawl down the edge of rocks to lay their eggs under the water.<br /><em>Larvae</em>: commonly found in strongly flowing or turbulent sections of a stream, but can survive in <strong>stagnant</strong> water if it is well <strong>oxygenated</strong>. Most often they are attached to rocks or large logs.",
       "diet": "<em>Larvae</em>: are strictly benthic and feed on periphyton and other plant material covering the stream bed.",
-      "features": "<em>Adults</em>: are terrestrial. They are board, somewhat flattened and dark coloured. They have distinctively serrated join between their <strong>pronotum</strong> and <strong>elytra</strong>.<br /><em>Larvae:</em> are distinctly flattened and disc-like, oval or sometimes round. Side extensions of every segment form a shield, which completely covers the head and legs of the animal from above. The body of the larvae resembles that of the trilobites."
+      "features": "<em>Adults</em>: are terrestrial. They are board, somewhat flattened and dark coloured. They have distinctively serrated join between their <strong>pronotum</strong> and <strong>elytra</strong>.<br /><em>Larvae:</em> are distinctly flattened and disc-like, oval or sometimes round. Side extensions of every segment form a shield, which completely covers the head and legs of the animal from above. The body of the larvae resembles that of the trilobites.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "nolegs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "sensitive"
     },
     {
       "title": "Water Scorpion",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "threepairs",
-        "onetail",
-        "veryTol"
-      ],
+      "cssClasses": "item nonmicro noshell threepairs onetail veryTol",
       "thumbnail": "scorpion-th",
       "featured_image": [
         "scorpion/water-scorpion1",
@@ -834,18 +795,16 @@
       "size": "up to 50mm",
       "habitat": "Among submerged vegetation in slow-flowing fresh waters, particularly in ponds, dams and wetlands.",
       "diet": "<strong>Carnivorous</strong> &ndash; adults eat small aquatic insects, which they capture in their front legs.",
-      "features": "Long, broad and flat bodies; sharp, claw-like prehensile front legs and a long rear breathing tube; also known as needle bugs."
+      "features": "Long, broad and flat bodies; sharp, claw-like prehensile front legs and a long rear breathing tube; also known as needle bugs.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "threepairs",
+	  "filter_tail": "onetail",
+	  "filter_sensitivity": "veryTol"
     },
     {
       "title": "Water Spider",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "fourpairs",
-        "nowings",
-        "notail",
-        "veryTol"
-      ],
+      "cssClasses": "item nonmicro noshell fourpairs nowings notail veryTol",
       "thumbnail": "waterSpider-th",
       "featured_image": [
         "spider/water-spider1",
@@ -861,17 +820,16 @@
       "size": "up to 50mm",
       "habitat": "Creek banks and streams. Most common in summer. Many species Australia-wide.",
       "diet": "<strong>Carnivorous</strong> &ndash; other aquatic invertebrates.",
-      "features": "Leg diameter from about a pin to matchstick size. Mottled dark abdomen; head with silver or dark gold edge."
+      "features": "Leg diameter from about a pin to matchstick size. Mottled dark abdomen; head with silver or dark gold edge.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "fourpairs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "veryTol"
     },
     {
       "title": "Water Strider",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "threepairs",
-        "notail",
-        "tolerant"
-      ],
+      "cssClasses": "nonmicro noshell threepairs notail tolerant",
       "thumbnail": "strider-th",
       "featured_image": [
         "strider/water-strider1",
@@ -886,17 +844,16 @@
       "size": "up to 12mm",
       "habitat": "On the surface of ponds, streams, and small dams; common to most water bodies throughout Australia.",
       "diet": "<strong>Carniverous</strong> &ndash; insects and other aquatic animals; body fluids are extracted from the prey using piercing and sucking mouth parts.",
-      "features": "Leg diameter from about a pin to matchstick size. Mottled dark abdomen; head with silver or dark gold edge."
+      "features": "Leg diameter from about a pin to matchstick size. Mottled dark abdomen; head with silver or dark gold edge.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "threepairs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "tolerant"
     },
     {
       "title": "Water Treader",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "threepairs",
-        "notail",
-        "tolerant"
-      ],
+      "cssClasses": "nonmicro noshell threepairs notail tolerant",
       "thumbnail": "treader-th",
       "featured_image": [
         "treader/water-treader1",
@@ -912,17 +869,16 @@
       "size": "1-4.5mm",
       "habitat": "Semi-aquatic bugs: all surface or edge dwellers and can be found in still or slow-flowing waters.",
       "diet": "<strong>Carniverous</strong> &ndash; prey and scavenge on small <strong>invertebrates</strong> fallen on the water surface.",
-      "features": "Tufts of <strong>hydrophobic</strong> hair at the tip of their <strong>tarsi</strong> hold them on the water surface. Hind legs are longer than their body. Walk or run on the water surface."
+      "features": "Tufts of <strong>hydrophobic</strong> hair at the tip of their <strong>tarsi</strong> hold them on the water surface. Hind legs are longer than their body. Walk or run on the water surface.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "threepairs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "tolerant"
     },
     {
       "title": "Whirligig Beetle",
-      "properties": [
-        "nonmicro",
-        "noshell",
-        "threepairs",
-        "notail",
-        "tolerant"
-      ],
+      "cssClasses": "nonmicro noshell threepairs notail tolerant",
       "thumbnail": "whirligig-th",
       "featured_image": [
         "whirligig/whirligig-beetle1",
@@ -937,6 +893,11 @@
       "size": "<em>Adult</em>: 6 mm long.<br /><em>Larva</em>: up to 20mm.",
       "habitat": "<em>Adult</em>: on the surface of still and slow-flowing waters.<br /> <em>Larva</em>: on logs and with the <strong>sediment</strong> under <strong>macrophytes.",
       "diet": "<strong>Carniverous</strong> &ndash; both adults and larvae feed on other animals in the water column or animals that fall into the water.",
-      "features": "<em>Adult</em>: eyes completely divided into upper and lower sections by a strip of cuticle; very short and compact <strong>antennae</strong>; short, flattened and paddle-like mid and hind legs.<br /><em>Larva</em>: feathery gills on the first eight body segments; two pairs of gills on the ninth <strong>abdominal</strong> segment; pair of hooks at the end of the tenth segment."
+      "features": "<em>Adult</em>: eyes completely divided into upper and lower sections by a strip of cuticle; very short and compact <strong>antennae</strong>; short, flattened and paddle-like mid and hind legs.<br /><em>Larva</em>: feathery gills on the first eight body segments; two pairs of gills on the ninth <strong>abdominal</strong> segment; pair of hooks at the end of the tenth segment.",
+	  "filter_size": "nonmicro",
+	  "filter_shell": "noshell",
+	  "filter_legs": "threepairs",
+	  "filter_tail": "notail",
+	  "filter_sensitivity": "tolerant"
     }
 ]

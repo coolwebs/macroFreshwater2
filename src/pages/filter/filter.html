@@ -1,227 +1,170 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Freshwater Macro invertebrates
-    </ion-title>
-  </ion-navbar>
+	<ion-navbar>
+		<ion-title>
+			Freshwater Macro invertebrates
+		</ion-title>
+	</ion-navbar>
 </ion-header>
 
 <ion-content>
+	<ion-grid>
+		<ion-row>
+			<ion-col col-3 style="background: #9fb5ce;" ion-fixed id="sortingFilters">
+				<h2>Sorting Filters</h2>
+				<div id="accordion">
+					<h4 class="accordion-toggle dormantState" (click)="toggleIconSize()">Size <ion-icon id="collapseIcon" [name]="buttonIconSize"></ion-icon></h4>
+					<div class="accordion-content">
+						<p>Select whether the creature is microscopic or bigger than microscopic (can be seen with naked eye).</p>
+							<ion-list radio-group [(ngModel)]="size">
+								<ion-item>
+									<ion-label>All Sizes</ion-label>
+									<ion-radio id="all" value="" checked></ion-radio>
+								</ion-item>
 
-  <ion-grid>
-    <ion-row>
-      <ion-col col-3 style="background: #9fb5ce;">
-        <h2>Sorting Filters</h2>
+								<ion-item>
+									<ion-label>Microscopic</ion-label>
+									<ion-radio id="micro" value="micro" ></ion-radio>
+								</ion-item>
 
-        <div id="accordion">
-          <h4 class="accordion-toggle dormantState" (click)="toggleIconSize()">Size <ion-icon id="collapseIcon" [name]="buttonIconSize"></ion-icon></h4>
-          <div class="accordion-content">
-            <p>Select whether the creature is microscopic or bigger than microscopic (can be seen with naked eye).</p>
-            <form>
-              <ion-list radio-group>
+								<ion-item>
+									<ion-label>Non Microscopic</ion-label>
+									<ion-radio id="nonmicro" value="nonmicro" ></ion-radio>
+								</ion-item>
+							</ion-list>
+					</div>
 
-                <ion-item>
-                  <ion-label>All Sizes</ion-label>
-                  <ion-radio id="all"  value="" checked></ion-radio>
-                </ion-item>
+					<h4 class="accordion-toggle dormantState" (click)="toggleIconShell()">Shell <ion-icon [name]="buttonIconShell"></ion-icon></h4>
+					<div class="accordion-content">
+						<p>What type of shell does the creature have?</p>
+							<ion-list radio-group [(ngModel)]="shell">
+								<ion-item>
+									<ion-label>All Types</ion-label>
+									<ion-radio id="all" value="" checked></ion-radio>
+								</ion-item>
+								<ion-item>
+									<ion-label>No Shell</ion-label>
+									<ion-radio id="no-shell" value="noshell"></ion-radio>
+								</ion-item>
+								<ion-item>
+									<ion-label>Single Shell</ion-label>
+									<ion-radio id="single-shell" value="oneshell"></ion-radio>
+								</ion-item>
+								<ion-item>
+									<ion-label>Double shell</ion-label>
+									<ion-radio id="double-shell" value="doubleshell"></ion-radio>
+								</ion-item>
+							</ion-list>
+					</div>
 
-                <ion-item>
-                  <ion-label>Microscopic</ion-label>
-                  <ion-radio id="micro" value=".micro"></ion-radio>
-                </ion-item>
+					<h4 class="accordion-toggle dormantState" (click)="toggleIconLegs()">Legs <ion-icon [name]="buttonIconLegs"></ion-icon></h4>
+					<div class="accordion-content">
+						<p>How many pairs of legs does the creature have?</p>
+							<ion-list radio-group [(ngModel)]="legs">
+								<ion-item>
+									<ion-label>All Types</ion-label>
+									<ion-radio id="all" value="" checked></ion-radio>
+								</ion-item>
 
-                <ion-item>
-                  <ion-label>Non Microscopic</ion-label>
-                  <ion-radio id="nonmicro" value=".nonmicro"></ion-radio>
-                </ion-item>
+								<ion-item>
+									<ion-label>No legs</ion-label>
+									<ion-radio id="no-legs" value="nolegs"></ion-radio>
+								</ion-item>
 
-              </ion-list>
-            </form>
-          </div>
+								<ion-item>
+									<ion-label>3 pairs</ion-label>
+									<ion-radio id="3pairs" value="threepairs"></ion-radio>
+								</ion-item>
 
-          <h4 class="accordion-toggle dormantState" (click)="toggleIconShell()">Shell <ion-icon [name]="buttonIconShell"></ion-icon></h4>
-          <div class="accordion-content">
-            <p>What type of shell does the creature have?</p>
-            <form>
-              <ion-list radio-group>
+								<ion-item>
+									<ion-label>4+ pairs</ion-label>
+									<ion-radio id="4pairs" value="fourpairs"></ion-radio>
+								</ion-item>
+							</ion-list>
+					</div>
+					<h4 class="accordion-toggle dormantState" (click)="toggleIconTail()">Tail <ion-icon [name]="buttonIconTail"></ion-icon></h4>
+					<div class="accordion-content">
+						<p>Does the animal have a tail or not? If so, how many tails present?</p>
+							<ion-list radio-group [(ngModel)]="tail" class="propertFilters">
+								<ion-item>
+									<ion-label>All Types</ion-label>
+									<ion-radio id="all" value="" checked></ion-radio>
+								</ion-item>
+								<ion-item>
+									<ion-label>No tail</ion-label>
+									<ion-radio id="no-tail" value="notail"></ion-radio>
+								</ion-item>
+								<ion-item>
+									<ion-label>1 tail</ion-label>
+									<ion-radio id="oneTail" value="onetail"></ion-radio>
+								</ion-item>
+								<ion-item>
+									<ion-label>2 tails</ion-label>
+									<ion-radio id="twoTail" value="twotail"></ion-radio>
+								</ion-item>
+								<ion-item>
+									<ion-label>3 tails</ion-label>
+									<ion-radio id="threeTail" value="threetail"></ion-radio>
+								</ion-item>
+							</ion-list>
+					</div>
 
-                <ion-item>
-                  <ion-label>All Types</ion-label>
-                  <ion-radio id="all" value="" checked></ion-radio>
-                </ion-item>
+					<h4 class="accordion-toggle dormantState" (click)="toggleIconSense()">Sensitivity <ion-icon [name]="buttonIconSense"></ion-icon></h4>
+					<div class="accordion-content">
+						<p>How sensitive is the animal?</p>
+							<ion-list radio-group [(ngModel)]="sensitive" id="sensitivity">
+								<ion-item>
+									<ion-label>All Types</ion-label>
+									<ion-radio id="all" value="" checked></ion-radio>
+								</ion-item>
 
-                <ion-item>
-                  <ion-label>No Shell</ion-label>
-                  <ion-radio id="no-shell" value=".noshell"></ion-radio>
-                </ion-item>
+								<ion-item>
+									<ion-label>Very Tolerant</ion-label>
+									<ion-radio id="veryTol" value="veryTol"></ion-radio>
+								</ion-item>
 
-                <ion-item>
-                  <ion-label>Single Shell</ion-label>
-                  <ion-radio id="single-shell" value=".oneshell"></ion-radio>
-                </ion-item>
+								<ion-item>
+									<ion-label>Tolerant</ion-label>
+									<ion-radio id="tolerant" value="tolerant"></ion-radio>
+								</ion-item>
 
-                <ion-item>
-                  <ion-label>Double shell</ion-label>
-                  <ion-radio id="double-shell" value="doubleshell"></ion-radio>
-                </ion-item>
+								<ion-item>
+									<ion-label>Sensitive</ion-label>
+									<ion-radio id="sensitive" value="sensitive"></ion-radio>
+								</ion-item>
 
-              </ion-list>
-            </form>
-          </div>
-
-          <h4 class="accordion-toggle dormantState" (click)="toggleIconLegs()">Legs <ion-icon [name]="buttonIconLegs"></ion-icon></h4>
-          <div class="accordion-content">
-            <p>How many pairs of legs does the creature have?</p>
-            <form>
-              <ion-list radio-group>
-
-                <ion-item>
-                  <ion-label>All Types</ion-label>
-                  <ion-radio id="all" value="" checked></ion-radio>
-                </ion-item>
-
-                <ion-item>
-                  <ion-label>No legs</ion-label>
-                  <ion-radio id="no-legs" value=".nolegs"></ion-radio>
-                </ion-item>
-
-                <ion-item>
-                  <ion-label>3 pairs</ion-label>
-                  <ion-radio id="3pairs" value=".threepairs"></ion-radio>
-                </ion-item>
-
-                <ion-item>
-                  <ion-label>4+ pairs</ion-label>
-                  <ion-radio id="4pairs" value=".fourpairs"></ion-radio>
-                </ion-item>
-
-              </ion-list>
-            </form>
-          </div>
-
-        <h4 class="accordion-toggle dormantState" (click)="toggleIconTail()">Tail <ion-icon [name]="buttonIconTail"></ion-icon></h4>
-        <div class="accordion-content">
-          <p>Does the animal have a tail or not? If so, how many tails present?</p>
-          <form>
-            <ion-list radio-group>
-
-              <ion-item>
-                <ion-label>All Types</ion-label>
-                <ion-radio id="all" value="" checked></ion-radio>
-              </ion-item>
-
-              <ion-item>
-                <ion-label>No tail</ion-label>
-                <ion-radio id="no-tail" value=".notail"></ion-radio>
-              </ion-item>
-
-              <ion-item>
-                <ion-label>1 tail</ion-label>
-                <ion-radio id="oneTail" value=".onetail"></ion-radio>
-              </ion-item>
-
-              <ion-item>
-                <ion-label>2 tails</ion-label>
-                <ion-radio id="twoTail" value=".twotail"></ion-radio>
-              </ion-item>
-
-              <ion-item>
-                <ion-label>3 tails</ion-label>
-                <ion-radio id="threeTail" value=".threetail"></ion-radio>
-              </ion-item>
-
-            </ion-list>
-          </form>
-        </div>
-
-          <h4 class="accordion-toggle dormantState" (click)="toggleIconSense()">Sensitivity <ion-icon [name]="buttonIconSense"></ion-icon></h4>
-          <div class="accordion-content">
-            <p>How sensitive is the animal?</p>
-            <form>
-              <ion-list radio-group>
-
-                <ion-item>
-                  <ion-label>All Types</ion-label>
-                  <ion-radio id="all" value="" checked></ion-radio>
-                </ion-item>
-
-                <ion-item>
-                  <ion-label>Very Tolerant</ion-label>
-                  <ion-radio id="vTolerant" value=".veryTol"></ion-radio>
-                </ion-item>
-
-                <ion-item>
-                  <ion-label>Tolerant</ion-label>
-                  <ion-radio id="tolerant" value=".tolerant"></ion-radio>
-                </ion-item>
-
-                <ion-item>
-                  <ion-label>Sensitive</ion-label>
-                  <ion-radio id="sensitive" value=".sensitive"></ion-radio>
-                </ion-item>
-
-                <ion-item>
-                  <ion-label>Very Sensitive<</ion-label>
-                  <ion-radio id="vSensitive" value=".verySens"></ion-radio>
-                </ion-item>
-
-              </ion-list>
-            </form>
-          </div>
-
-      </div>
-
-        <hr />
-        <form>
-          <input type="reset" onclick="resetCheckboxes()" data-icon="refresh" value="Reset Filters" />
-          <button ion-button full color="light" icon-left>
-            <ion-icon name="refresh-circle"></ion-icon>Reset Filters
-          </button>
-        </form>
-      </ion-col>
-      <ion-col style="background: white;">
-        <ion-grid id="container">
-          <ion-row>
-            <ion-col *ngFor="let macro of allMacros" col-2 (click)="goToMacroDetailsPage(macro)" class="item">
-              <ion-card [attr.data-groups]="macro.properties">
-                <img src="../assets/imgs/specimens/thumbs/{{macro.thumbnail}}.jpg"/>
-                <ion-card-content>
-                  <ion-card-title>
-                    {{macro.title}}
-                  </ion-card-title>
-                </ion-card-content>
-              </ion-card>
-            </ion-col>
-          </ion-row>
-        </ion-grid>
-      </ion-col>
-    </ion-row>
-  </ion-grid>
-
-  <script>
-      $(function(){
-          var $container = $('#container'),
-              $checkboxes = $('#filters input');
-
-          $container.isotope({
-              itemSelector: '.item'
-          });
-
-          $checkboxes.change(function(){
-              var filters = [];
-              // get checked radio values
-              $checkboxes.filter(':checked').each(function(){
-                  filters.push( this.value );
-              });
-              // ['.red', '.blue'] -> '.red, .blue'
-              filters = filters.join('');
-              $container.isotope({ filter: filters });
-          });
-
-          $('#shuffle').click(function(){
-              $container.isotope('shuffle');
-          });
-      });
-  </script>
+								<ion-item>
+									<ion-label>Very Sensitive</ion-label>
+									<ion-radio id="verySens" value="verySens"></ion-radio>
+								</ion-item>
+							</ion-list>
+					</div>
+				</div>
+				<hr />
+				<form>
+					<button ion-button full color="light" icon-left (click)="resetFilters()">
+            			<ion-icon name="refresh-circle"></ion-icon>Reset Filters
+          			</button>
+				</form>
+			</ion-col>
+			<ion-col style="background: white;" id="galleryDisplay">
+				<ion-grid>
+					<ion-row>
+						<div *ngFor="let macro of allMacros">
+							<ion-col (click)="goToMacroDetailsPage(macro)" class="item filter-item" *ngIf="(size == macro.filter_size || !size) && (shell == macro.filter_shell || !shell) && (legs == macro.filter_legs || !legs) && (tail == macro.filter_tail || !tail) && (sensitive == macro.filter_sensitivity || !sensitive)">
+								<ion-card>
+									<img src="../assets/imgs/specimens/thumbs/{{macro.thumbnail}}.jpg" />
+									<ion-card-content>
+										<ion-card-title>
+											{{macro.title}}
+										</ion-card-title>
+									</ion-card-content>
+								</ion-card>
+							</ion-col>
+						</div>
+					</ion-row>
+				</ion-grid>
+			</ion-col>
+		</ion-row>
+	</ion-grid>
 
 </ion-content>
