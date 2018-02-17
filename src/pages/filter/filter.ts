@@ -18,7 +18,6 @@ export class FilterPage {
 	legs: any = "";
 	tail: any = "";
 	sensitive: any = "";
-	myShuffle: any;
 
 	buttonIconSize: string = "ios-add-circle-outline";
 	toggleIconSize(getIcon: string) {
@@ -79,10 +78,6 @@ export class FilterPage {
 
 	constructor(private specimensProvider: SpecimensProvider, private http: Http, public navCtrl: NavController) {
 
-		function resetCheckboxes() {
-			window.location.reload(true);
-		}
-
 		$(document).ready(function($) {
 
 			$('#accordion').find('.accordion-toggle').click(function() {
@@ -102,26 +97,6 @@ export class FilterPage {
 				this.allMacros = response;
 				console.log(response);
 			});
-
-		// var shuffleInstance = new Shuffle(document.getElementById('container'), {
-		// 	itemSelector: '.item',
-		// 	sizer: '.js-shuffle-sizer'
-		// });
-
-		// $('#filters input').click(function(e) {
-		// 	e.preventDefault();
-		// 	alert('sdfs');
-		// 	// set active class
-		// 	$('#filters input').removeClass('active');
-		// 	$(this).addClass('active');
-        //
-		// 	// get group name from clicked item
-		// 	var groupName = $(this).attr('data-group');
-		// 	console.log(groupName);
-        //
-		// 	// reshuffle grid
-		// 	shuffleInstance.filter(groupName);
-		// });
 	}
 
 	goToMacroDetailsPage(macro) {
@@ -130,21 +105,16 @@ export class FilterPage {
 		});
 	}
 
-	setFilter() {
-		console.log(this.size);
-		// let myShuffle = "shuffle" in window ? window['shuffle'] : '';
-        //
-        // let element = document.getElementById('container');
-        // let sizer = element.querySelector('.js-shuffle-sizer');
-        //
-        // myShuffle = new Shuffle(element, {
-        //     itemSelector: '.item',
-        //     sizer: sizer,
-        //     gutterWidth: 33,
-        //     columnWidth: 540
-        // })
-		// myShuffle.filter(this.sensitive);
-		// console.log(this.sensitive);
+    
+    resetFilters() {
+        //this.size = "";
+        //this.shell = "";
+        //this.legs = "";
+        //this.tail = "";
+       // this.sensitive = "";
+       //document.getElementById('all').checked = true;
+        this.navCtrl.setRoot(this.navCtrl.getActive().component);
 	}
+
 
 }

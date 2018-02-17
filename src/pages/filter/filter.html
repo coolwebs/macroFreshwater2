@@ -111,7 +111,7 @@
 					<h4 class="accordion-toggle dormantState" (click)="toggleIconSense()">Sensitivity <ion-icon [name]="buttonIconSense"></ion-icon></h4>
 					<div class="accordion-content">
 						<p>How sensitive is the animal?</p>
-							<ion-list radio-group [(ngModel)]="sensitive">
+							<ion-list radio-group [(ngModel)]="sensitive" id="sensitivity">
 								<ion-item>
 									<ion-label>All Types</ion-label>
 									<ion-radio id="all" value="" checked></ion-radio>
@@ -141,8 +141,7 @@
 				</div>
 				<hr />
 				<form>
-					<input type="reset" onclick="resetCheckboxes()" data-icon="refresh" value="Reset Filters" />
-					<button ion-button full color="light" icon-left>
+					<button ion-button full color="light" icon-left (click)="resetFilters()">
             			<ion-icon name="refresh-circle"></ion-icon>Reset Filters
           			</button>
 				</form>
@@ -150,7 +149,6 @@
 			<ion-col style="background: white;" id="galleryDisplay">
 				<ion-grid>
 					<ion-row>
-						<!-- <ion-col col-2 *ngFor="let macro of allMacros" (click)="goToMacroDetailsPage(macro)" class="item" data-groups="{{macro.cssClasses}}"> -->
 						<div *ngFor="let macro of allMacros">
 							<ion-col (click)="goToMacroDetailsPage(macro)" class="item filter-item" *ngIf="(size == macro.filter_size || !size) && (shell == macro.filter_shell || !shell) && (legs == macro.filter_legs || !legs) && (tail == macro.filter_tail || !tail) && (sensitive == macro.filter_sensitivity || !sensitive)">
 								<ion-card>
@@ -168,33 +166,5 @@
 			</ion-col>
 		</ion-row>
 	</ion-grid>
-
-	<script>
-		// $(function() {
-		// 	var $container = $('#container'),
-		// 		$checkboxes = $('#filters input');
-        //
-		// 	$container.isotope({
-		// 		itemSelector: '.item'
-		// 	});
-        //
-		// 	$checkboxes.change(function() {
-		// 		var filters = [];
-		// 		// get checked radio values
-		// 		$checkboxes.filter(':checked').each(function() {
-		// 			filters.push(this.value);
-		// 		});
-		// 		// ['.red', '.blue'] -> '.red, .blue'
-		// 		filters = filters.join('');
-		// 		$container.isotope({
-		// 			filter: filters
-		// 		});
-		// 	});
-        //
-		// 	$('#shuffle').click(function() {
-		// 		$container.isotope('shuffle');
-		// 	});
-		// });
-	</script>
 
 </ion-content>
