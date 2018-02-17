@@ -6,7 +6,15 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content>
+<ion-content padding>
+  <h1>Geolocation page</h1>
+  <p>This is the Geolocator page. Please be patient, the map may take some time to load. Your approximate location will be  marked on the map below.</p>
+
+  <!--hide button that adds a marker manually for the moment-->
+  <!--<button ion-button (click)="addMarker()"><ion-icon name="add"></ion-icon>Add Marker</button>-->
+
+  <div #map id="map"></div>
+  <div id="geoCoords"></div>
 
   <ul id="filter">
     <li><a class="active" href="#" data-group="all">All</a></li>
