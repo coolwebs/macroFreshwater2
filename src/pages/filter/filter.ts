@@ -105,7 +105,7 @@ export class FilterPage {
 		});
 	}
 
-    resetFilters() {
+    resetFilter() {
 		this.size = "";
 		this.shell = "";
 		this.legs = "";
