@@ -42,12 +42,18 @@ ion-header {
 
   .toolbar-title {
     color: white;
-    line-height: 2;
-    background-image: url("../assets/icon/freshwater-logo.png");
-    background-repeat: no-repeat;
-    background-position: 31% 50%;
-    background-size: 32px 32px;
+    text-align: center;
+    //line-height: 2;
+    //background-image: url("../assets/icon/freshwater-logo.png");
+    //background-repeat: no-repeat;
+    //background-position: 31% 50%;
+    //background-size: 32px 32px;
     height: 80%;
+    img {
+      width: 42px;
+      height: 42px;
+      margin-right: 5px;
+    }
   }
   .toolbar-background {
     background: #5e87b0;
