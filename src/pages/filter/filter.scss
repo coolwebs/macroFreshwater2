@@ -3,8 +3,6 @@ page-filter {
     .content {
         
         .grid {
-
-          padding: 0;
             
             #galleryDisplay {
                 
@@ -15,6 +13,7 @@ page-filter {
                     height: 165px;
                     background: #eee;
                     margin: 6px;
+                    display: inline-flex;
                 }
 
                 .card-content {
@@ -30,7 +29,7 @@ page-filter {
                 .card {
                     margin: 5px;
                     width: calc(100% - 10px);
-                    height: 150px;
+                    //height: 150px;
                 }
                 
                 .filter-item {

@@ -7,7 +7,7 @@
 </ion-header>
 
 <ion-content>
-	<ion-grid>
+	<ion-grid no-padding>
 		<ion-row>
 			<ion-col col-3 style="background: #9fb5ce;" ion-fixed id="sortingFilters">
 				<h2>Sorting Filters</h2>
@@ -148,7 +148,7 @@
 				<ion-grid>
 					<ion-row>
 						<div *ngFor="let macro of allMacros">
-							<ion-col (click)="goToMacroDetailsPage(macro)" class="item filter-item" *ngIf="(size == macro.filter_size || !size) && (shell == macro.filter_shell || !shell) && (legs == macro.filter_legs || !legs) && (tail == macro.filter_tail || !tail) && (sensitive == macro.filter_sensitivity || !sensitive)">
+							<ion-col col-12 (click)="goToMacroDetailsPage(macro)" class="item filter-item" *ngIf="(size == macro.filter_size || !size) && (shell == macro.filter_shell || !shell) && (legs == macro.filter_legs || !legs) && (tail == macro.filter_tail || !tail) && (sensitive == macro.filter_sensitivity || !sensitive)">
 								<ion-card>
 									<img src="../assets/imgs/specimens/thumbs/{{macro.thumbnail}}.jpg" />
 									<ion-card-content>
