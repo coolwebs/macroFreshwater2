@@ -1,0 +1,82 @@
+page-filter .content .grid #galleryDisplay {
+  overflow: scroll; }
+  page-filter .content .grid #galleryDisplay .item {
+    width: 135px;
+    height: 165px;
+    background: #eee;
+    margin: 3px;
+    display: inline-flex; }
+  page-filter .content .grid #galleryDisplay .card-content {
+    padding: 10px; }
+  page-filter .content .grid #galleryDisplay .card-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0; }
+  page-filter .content .grid #galleryDisplay .card {
+    margin: 3px;
+    width: 100%; }
+  page-filter .content .grid #galleryDisplay .filter-item {
+    animation: fadeInUp 0.6s; }
+page-filter .content .grid #sortingFilters {
+  overflow: hidden; }
+  page-filter .content .grid #sortingFilters .accordian {
+    width: 100%; }
+  page-filter .content .grid #sortingFilters h4.accordion-toggle {
+    cursor: pointer;
+    padding: 8px;
+    margin-bottom: 0;
+    margin-top: 2px; }
+    page-filter .content .grid #sortingFilters h4.accordion-toggle .icon {
+      float: right; }
+  page-filter .content .grid #sortingFilters .accordion-content {
+    display: none;
+    background: #eee;
+    border: 1px solid #ccc;
+    padding: 5px; }
+  page-filter .content .grid #sortingFilters .accordion-content.default {
+    display: block; }
+  page-filter .content .grid #sortingFilters ul {
+    list-style-type: none; }
+  page-filter .content .grid #sortingFilters .dormantState {
+    background: #ccc; }
+
+@keyframes Items {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.3) rotateY(90deg);
+    transform: scale(0.3) rotateY(90deg); }
+
+  60% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+
+  90% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9); }
+
+  100% {
+    opacity: 1; } }
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0); }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0); }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+/*# sourceMappingURL=filter.css.map */
