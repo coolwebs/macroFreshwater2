@@ -150,7 +150,7 @@
 						<div *ngFor="let macro of allMacros">
 							<ion-col col-12 (click)="goToMacroDetailsPage(macro)" class="item filter-item" *ngIf="(size == macro.filter_size || !size) && (shell == macro.filter_shell || !shell) && (legs == macro.filter_legs || !legs) && (tail == macro.filter_tail || !tail) && (sensitive == macro.filter_sensitivity || !sensitive)">
 								<ion-card>
-									<img src="../assets/imgs/specimens/thumbs/{{macro.thumbnail}}.jpg" />
+									<img src="./assets/imgs/specimens/thumbs/{{macro.thumbnail}}.jpg" />
 									<ion-card-content>
 										<ion-card-title>
 											{{macro.title}}
