@@ -26,53 +26,58 @@
               <td width="20%"><strong>Sensitivity Rating</strong></td>
               <td width="80%">{{macroDetails.sensitivity}}</td>
             </tr>
-            <tr>
+            <tr *ngIf="macroDetails.phylum">
               <td><strong>Phylum</strong></td>
               <td>{{macroDetails.phylum}}</td>
             </tr>
-            <tr>
+            <tr *ngIf="macroDetails.class">
               <td><strong>Class</strong></td>
               <td>{{macroDetails.class}}</td>
             </tr>
-            <tr>
+            <tr *ngIf="macroDetails.order">
               <td><strong>Order</strong></td>
               <td>{{macroDetails.order}}</td>
             </tr>
-            <tr>
+            <tr *ngIf="macroDetails.family">
               <td><strong>Family</strong></td>
               <td>{{macroDetails.family}}</td>
             </tr>
-            <tr>
+            <tr *ngIf="macroDetails.genera">
               <td><strong>Genera</strong></td>
               <td>{{macroDetails.genera}}</td>
             </tr>
-            <tr>
+            <tr *ngIf="macroDetails.size">
               <td><strong>Size</strong></td>
-              <td>{{macroDetails.size}}</td>
+              <td [innerHTML]="macroDetails.size"></td>
             </tr>
-            <tr>
+            <tr *ngIf="macroDetails.habitat">
               <td><strong>Habitat</strong></td>
-              <td>{{macroDetails.habitat}}</td>
+              <td [innerHTML]="macroDetails.habitat"></td>
             </tr>
-            <tr>
+            <tr *ngIf="macroDetails.diet">
               <td><strong>Diet</strong></td>
               <td [innerHTML]="macroDetails.diet"></td>
             </tr>
-            <tr>
+            <tr *ngIf="macroDetails.features">
               <td><strong>Features</strong></td>
-              <td>{{macroDetails.features}}</td>
+              <td [innerHTML]="macroDetails.features"></td>
             </tr>
           </table>
         </ion-col>
 
         <ion-col col-6>
-          <small class="slideinfo">Swipe to change the images</small>
           <ion-slides pager="true">
+            <ion-slide *ngIf="macroDetails.video">
+              <video controls id="video">
+                <source src="../assets/videos/{{macroDetails.video}}.mp4" type="video/mp4">
+                Your device does not support HTML5 video playback.
+              </video>
+            </ion-slide>
             <ion-slide *ngFor="let images of macroDetails.featured_image">
               <img src="../assets/imgs/specimens/{{images}}.jpg" />
             </ion-slide>
           </ion-slides>
-          <!--<p>this is some text</p>-->
+          <small class="slideinfo">Swipe to change the images</small>
         </ion-col>
 
       </ion-row>

@@ -129,6 +129,7 @@
         "cyclops/cyclops2",
         "cyclops/cyclops3"
       ],
+      "video": "cyclops",
       "sensitivity": "Very sensitive",
       "phylum": "Anthropoda",
       "class": "Insecta",

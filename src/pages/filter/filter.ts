@@ -95,7 +95,7 @@ export class FilterPage {
 		this.specimensProvider.getSpecimens()
 			.subscribe((response) => {
 				this.allMacros = response;
-				console.log(response);
+				//console.log(response);
 			});
 	}
 
