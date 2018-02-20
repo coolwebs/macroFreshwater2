@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'fingerpaint';
+  src: url("../assets/fonts/FingerPaint-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'doppio';
+  src: url("../assets/fonts/DoppioOne-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'architect';
+  src: url("../assets/fonts/ArchitectsDaughter-Regular.ttf") format("truetype"); }
+
+ion-header {
+  background: #5e87b0; }
+  ion-header ion-title {
+    font-family: 'doppio', cursive, sans-serif; }
+  ion-header .toolbar-title {
+    color: white;
+    text-align: center;
+    height: 80%; }
+    ion-header .toolbar-title img {
+      width: 42px;
+      height: 42px;
+      margin-right: 5px; }
+  ion-header .toolbar-background {
+    background: #5e87b0; }
+  ion-header .back-button {
+    color: #fff; }
+
+h2 {
+  font-family: 'architect', cursive, sans-serif; }
+
+/*# sourceMappingURL=app.css.map */
