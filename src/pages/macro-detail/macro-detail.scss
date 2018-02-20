@@ -13,4 +13,9 @@ page-macro-detail {
   ion-slide.swiper-slide {
     align-items: flex-start;
   }
+  video {
+    //object-fit: cover;
+    width: 458px;
+    height: 400px;
+  }
 }
