@@ -10,8 +10,24 @@ page-macro-detail {
     }
     border: 1px solid #ddd;
   }
+  ion-slides.slides {
+    height: auto;
+  }
   ion-slide.swiper-slide {
     align-items: flex-start;
+  }
+  .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: 0px;
+    background: rgba(1,1,1,0.4);
+    .swiper-pagination-bullet {
+      background: #fff;
+      opacity: 1;
+      //border: 1px solid #888;
+    }
+    .swiper-pagination-bullet.swiper-pagination-bullet-active {
+      background: #007aff;
+      border: none;
+    }
   }
   video {
     //object-fit: cover;
