@@ -192,6 +192,7 @@
         "flatworm/flatworm1",
         "flatworm/flatworm2"
       ],
+      "video": "flatworm",
       "sensitivity": "Very Tolerant",
       "phylum": "Platyhelminthes",
       "class": "Turbellaria",
@@ -288,6 +289,7 @@
         "snail/freshwater-snail2",
         "snail/freshwater-snail3"
       ],
+      "video": "freshwater-snail",
       "sensitivity": "Very Tolerant",
       "phylum": "Mollusca",
       "class": "Gastropoda",
@@ -363,6 +365,7 @@
         "leech/leech2",
         "leech/leech3"
       ],
+      "video": "leech",
       "sensitivity": "Very Tolerant",
       "phylum": "Annelida",
       "class": "Clitellata",
@@ -465,6 +468,7 @@
         "diving-beetle/diving-beetle2",
         "diving-beetle/diving-beetle3"
       ],
+      "vidoe": "diving-beetle-larvae",
       "sensitivity": "Very Tolerant",
       "phylum": "Arthropoda",
       "class": "Insecta",
@@ -479,6 +483,11 @@
 	  "filter_legs": "threepairs",
 	  "filter_tail": "notail",
 	  "filter_sensitivity": "veryTol"
+    },
+    {
+      "title": "Rat Tailed Maggot",
+      "thumbnail": "",
+      "video": ""
     },
     {
       "title": "Rifle Beetle",
@@ -514,6 +523,7 @@
         "scav-beetle/scav-beetle4",
         "scav-beetle/scav-beetle5"
       ],
+      "video": "scavenger-beetle-larvae",
       "sensitivity": "Very Tolerant",
       "phylum": "Arthropoda",
       "class": "Insecta",
@@ -561,6 +571,7 @@
         "seed-shrimp/Seed-Shrimp1",
         "seed-shrimp/Seed-Shrimp2"
       ],
+      "video": "seed-shrimp",
       "sensitivity": "Tolerant",
       "phylum": "Arthropoda",
       "class": "Ostracoda",
@@ -630,6 +641,7 @@
         "toadbug/toadbug1",
         "toadbug/toadbug2"
       ],
+      "video": "toad-bug",
       "sensitivity": "Tolerant",
       "phylum": "Arthropoda",
       "family": "Gelastocoridae",
@@ -702,6 +714,7 @@
         "water-flea/water-flea3",
         "water-flea/water-flea4"
       ],
+      "video": "water-flea",
       "sensitivity": "Tolerant",
       "phylum": "Arthropoda",
       "class": "Branchiopoda",
@@ -752,6 +765,7 @@
         "water-mite/water-mite2",
         "water-mite/water-mite3"
       ],
+      "video": "normal-water-mite",
       "sensitivity": "Sensitive",
       "phylum": "Arthropoda",
       "class": "Arachnida",
@@ -899,6 +913,7 @@
         "whirligig/whirligig-beetle2",
         "whirligig/whirligig-beetle3"
       ],
+      "video": "whirligig-beetle-larvae",
       "sensitivity": "Tolerent",
       "phylum": "Arthropoda",
       "class": "Insecta",
