@@ -174,6 +174,11 @@
       "title": "Dragonfly",
       "cssClasses": "item nonmicro noshell threepairs notail tolerant",
       "thumbnail": "dragonfly-th",
+      "featured_image": [
+        "dragonfly-nymph/dragonfly-nymph1",
+        "dragonfly-nymph/dragonfly-nymph2",
+        "dragonfly-nymph/dragonfly-nymph3"
+      ],
 	  "filter_size": "nonmicro",
 	  "filter_shell": "noshell",
 	  "filter_legs": "threepairs",
@@ -208,8 +213,8 @@
       "cssClasses": "item nonmicro twoshell nolegs notail veryTol",
       "thumbnail": "mussel-th",
       "featured_image": [
-        "mussel/freshwater-mussel1-big",
-        "mussel/freshwater-mussel1"
+        "mussel/freshwater-mussel1",
+        "mussel/freshwater-mussel2"
       ],
       "sensitivity": "Very Tolerant",
       "phylum": "Mollusca",
@@ -601,7 +606,7 @@
       "featured_image": [
         "stonefly-larva/stonefly-larva1",
         "stonefly-larva/stonefly-larva2",
-        "stonefly-larva/bstonefly-larva3"
+        "stonefly-larva/stonefly-larva3"
       ],
       "sensitivity": "Very Sensitive",
       "phylum": "Arthropoda",
