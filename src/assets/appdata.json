@@ -4,9 +4,10 @@
       "cssClasses": "item nonmicro noshell threepairs notail veryTol",
       "thumbnail": "backswimmer-th",
       "featured_image": [
-        "back-swimmer/Backswimmer1-big",
-        "back-swimmer/Backswimmer2-big",
-        "back-swimmer/Backswimmer3-big"
+        "back-swimmer/Backswimmer1",
+        "back-swimmer/Backswimmer2",
+        "back-swimmer/Backswimmer3",
+        "back-swimmer/Backswimmer4"
       ],
       "sensitivity": "Very Tolerant",
       "phylum": "Anthropoda",
@@ -173,6 +174,11 @@
       "title": "Dragonfly",
       "cssClasses": "item nonmicro noshell threepairs notail tolerant",
       "thumbnail": "dragonfly-th",
+      "featured_image": [
+        "dragonfly-nymph/dragonfly-nymph1",
+        "dragonfly-nymph/dragonfly-nymph2",
+        "dragonfly-nymph/dragonfly-nymph3"
+      ],
 	  "filter_size": "nonmicro",
 	  "filter_shell": "noshell",
 	  "filter_legs": "threepairs",
@@ -208,7 +214,7 @@
       "thumbnail": "mussel-th",
       "featured_image": [
         "mussel/freshwater-mussel1",
-        "mussel/freshwater-mussel1"
+        "mussel/freshwater-mussel2"
       ],
       "sensitivity": "Very Tolerant",
       "phylum": "Mollusca",
@@ -256,7 +262,8 @@
         "shrimp/freshwater-shrimp1",
         "shrimp/freshwater-shrimp2",
         "shrimp/freshwater-shrimp3",
-        "shrimp/freshwater-shrimp4"
+        "shrimp/freshwater-shrimp4",
+        "shrimp/freshwater-shrimp5"
       ],
       "sensitivity": "Tolerant",
       "phylum": "Arthropoda",
@@ -304,7 +311,8 @@
         "yabby/freshwater-yabby1",
         "yabby/freshwater-yabby2",
         "yabby/freshwater-yabby3",
-        "yabby/freshwater-yabby4"
+        "yabby/freshwater-yabby4",
+        "yabby/freshwater-yabby5"
       ],
       "sensitivity": "Tolerant",
       "phylum": "Arthropoda",
@@ -378,7 +386,8 @@
         "mayfly/mayfly-nymph1",
         "mayfly/mayfly-nymph2",
         "mayfly/mayfly-nymph3",
-        "mayfly/mayfly-nymph4"
+        "mayfly/mayfly-nymph4",
+        "mayfly/mayfly-nymph5"
       ],
       "sensitivity": "Very Sensitive",
       "phylum": "Arthropoda",
@@ -404,7 +413,8 @@
         "mosquito/mosquito-larva2",
         "mosquito/mosquito-larva3",
         "mosquito/mosquito-larva4",
-        "mosquito/mosquito-larva5"
+        "mosquito/mosquito-larva5",
+        "mosquito/mosquito-larva6"
       ],
       "sensitivity": "Very Tolerant",
       "phylum": "Arthropoda",
@@ -501,7 +511,9 @@
       "featured_image": [
         "scav-beetle/scav-beetle1",
         "scav-beetle/scav-beetle2",
-        "scav-beetle/scav-beetle3"
+        "scav-beetle/scav-beetle3",
+        "scav-beetle/scav-beetle4",
+        "scav-beetle/scav-beetle5"
       ],
       "sensitivity": "Very Tolerant",
       "phylum": "Arthropoda",
@@ -594,7 +606,7 @@
       "featured_image": [
         "stonefly-larva/stonefly-larva1",
         "stonefly-larva/stonefly-larva2",
-        "stonefly-larva/bstonefly-larva3"
+        "stonefly-larva/stonefly-larva3"
       ],
       "sensitivity": "Very Sensitive",
       "phylum": "Arthropoda",
@@ -688,7 +700,8 @@
       "featured_image": [
         "water-flea/water-flea1",
         "water-flea/water-flea2",
-        "water-flea/water-flea3"
+        "water-flea/water-flea3",
+        "water-flea/water-flea4"
       ],
       "sensitivity": "Tolerant",
       "phylum": "Arthropoda",
@@ -785,7 +798,8 @@
       "thumbnail": "scorpion-th",
       "featured_image": [
         "scorpion/water-scorpion1",
-        "scorpion/water-scorpion2"
+        "scorpion/water-scorpion2",
+        "scorpion/water-scorpion3"
       ],
       "sensitivity": "Very Tolerent",
       "phylum": "Arthropoda",
