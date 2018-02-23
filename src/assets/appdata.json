@@ -490,8 +490,12 @@
     },
     {
       "title": "Rat Tailed Maggot",
-      "thumbnail": "",
-      "video": ""
+      "thumbnail": "rtmaggot-th",
+      "featured_image": [
+        "rat-tailed-maggot/rat-tailed-maggot1"
+      ],
+      "video": "",
+      "poster": "red-tailed-maggot-video-poster"
     },
     {
       "title": "Rifle Beetle",
