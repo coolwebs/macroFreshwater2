@@ -66,18 +66,12 @@
         </ion-col>
 
         <ion-col col-6>
-            <video controls *ngIf="macroDetails.video" id="video">
+            <video controls *ngIf="macroDetails.video" poster="./assets/imgs/posters/{{macroDetails.poster}}.jpg" id="video">
               <source src="./assets/videos/{{macroDetails.video}}.mp4" type="video/mp4">
               Your device does not support HTML5 video playback.
             </video>
 
             <ion-slides pager="true">
-              <!--<ion-slide *ngIf="macroDetails.video">-->
-                <!--<video controls id="video">-->
-                  <!--<source src="../assets/videos/{{macroDetails.video}}.mp4" type="video/mp4">-->
-                  <!--Your device does not support HTML5 video playback.-->
-                <!--</video>-->
-              <!--</ion-slide>-->
               <ion-slide *ngFor="let images of macroDetails.featured_image">
                 <img src="./assets/imgs/specimens/{{images}}.jpg" />
               </ion-slide>
