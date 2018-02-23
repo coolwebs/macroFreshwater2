@@ -194,6 +194,7 @@
         "flatworm/flatworm2"
       ],
       "video": "flatworm",
+      "poster": "flatworm-video-poster",
       "sensitivity": "Very Tolerant",
       "phylum": "Platyhelminthes",
       "class": "Turbellaria",
@@ -291,6 +292,7 @@
         "snail/freshwater-snail3"
       ],
       "video": "freshwater-snail",
+      "poster": "snail-video-poster",
       "sensitivity": "Very Tolerant",
       "phylum": "Mollusca",
       "class": "Gastropoda",
@@ -367,6 +369,7 @@
         "leech/leech3"
       ],
       "video": "leech",
+      "poster": "leech-video-poster",
       "sensitivity": "Very Tolerant",
       "phylum": "Annelida",
       "class": "Clitellata",
@@ -525,6 +528,7 @@
         "scav-beetle/scav-beetle5"
       ],
       "video": "scavenger-beetle-larvae",
+      "poster": "scav-water-beetle-video-poster",
       "sensitivity": "Very Tolerant",
       "phylum": "Arthropoda",
       "class": "Insecta",
@@ -569,10 +573,11 @@
       "cssClasses": "item micro noshell fourpairs notail tolerant",
       "thumbnail": "seedShrimp-th",
       "featured_image": [
-        "seed-shrimp/Seed-Shrimp1",
-        "seed-shrimp/Seed-Shrimp2"
+        "seed-shrimp/seed-shrimp1",
+        "seed-shrimp/seed-shrimp2"
       ],
       "video": "seed-shrimp",
+      "poster": "seed-shrimp-video-poster",
       "sensitivity": "Tolerant",
       "phylum": "Arthropoda",
       "class": "Ostracoda",
@@ -643,6 +648,7 @@
         "toadbug/toadbug2"
       ],
       "video": "toad-bug",
+      "poster": "toadbug-video-poster",
       "sensitivity": "Tolerant",
       "phylum": "Arthropoda",
       "family": "Gelastocoridae",
@@ -716,6 +722,7 @@
         "water-flea/water-flea4"
       ],
       "video": "water-flea",
+      "poster": "water-flea-video-poster",
       "sensitivity": "Tolerant",
       "phylum": "Arthropoda",
       "class": "Branchiopoda",
@@ -767,6 +774,7 @@
         "water-mite/water-mite3"
       ],
       "video": "normal-water-mite",
+      "poster": "mite-normal-video-poster",
       "sensitivity": "Sensitive",
       "phylum": "Arthropoda",
       "class": "Arachnida",
@@ -915,6 +923,7 @@
         "whirligig/whirligig-beetle3"
       ],
       "video": "whirligig-beetle-larvae",
+      "poster": "whirligig-larvae-video-poster",
       "sensitivity": "Tolerent",
       "phylum": "Arthropoda",
       "class": "Insecta",
