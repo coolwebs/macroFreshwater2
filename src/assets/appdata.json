@@ -130,6 +130,7 @@
         "cyclops/cyclops3"
       ],
       "video": "cyclops",
+      "poster": "cyclops-video-poster",
       "sensitivity": "Very sensitive",
       "phylum": "Anthropoda",
       "class": "Insecta",
