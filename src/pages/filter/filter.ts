@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { Http } from "@angular/http";
 import "rxjs/add/operator/map";
 import * as $ from "jquery";
-import Shuffle from 'shufflejs';
 
 import { NavController } from 'ionic-angular';
 import { SpecimensProvider } from '../../providers/specimens/specimens';
