@@ -1,7 +1,5 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import * as $ from "jquery";
-import Shuffle from 'shufflejs';
 import { Geolocation } from '@ionic-native/geolocation';
 
 declare var google;
@@ -77,7 +75,7 @@ export class LocatorPage {
       let myGeoCoords;
       myGeoCoords = document.getElementById('geoCoords');
 
-      myGeoCoords.innerHTML = '<h2>Detailed Gelocation information</h2><table class="geoTable"><tr><td class="noborder" border="0" style="background-color: #f9f9f9;"></td><th>Latitude</th><th>Longitude</th><th>Accuracy</th><th>Timestamp</th></tr>' +
+      myGeoCoords.innerHTML = '<h3>Detailed Gelocation information</h3><table class="geoTable"><tr><td class="noborder" border="0" style="background-color: #f9f9f9;"></td><th>Latitude</th><th>Longitude</th><th>Accuracy</th><th>Timestamp</th></tr>' +
           '<tr><td class="head">Data Value</td>' +
           '<td class="centre">' + position.coords.latitude  + '</td>' +
           '<td class="centre">' + position.coords.longitude + '</td>' +

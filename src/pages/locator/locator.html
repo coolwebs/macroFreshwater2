@@ -1,75 +1,17 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Freshwater Macro invertebrates
+      Freshwater Macroinvertebrates
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h1>Geolocation page</h1>
-  <p>This is the Geolocator page. Please be patient, the map may take some time to load. Your approximate location will be  marked on the map below.</p>
-
-  <!--hide button that adds a marker manually for the moment-->
-  <!--<button ion-button (click)="addMarker()"><ion-icon name="add"></ion-icon>Add Marker</button>-->
+  <h2>Geolocation page</h2>
+  <p>This is the Geolocator page. Please be patient, the map may take some time to load. Your approximate location will be  marked on
+    the map below. Please make sure your device is connected to a reliable internet connection. Accuracy is superior over a cellular connection.</p>
 
   <div #map id="map"></div>
   <div id="geoCoords"></div>
 
-  <ul id="filter">
-    <li><a class="active" href="#" data-group="all">All</a></li>
-    <li><a href="#" data-group="space">Space</a></li>
-    <li><a href="#" data-group="nature">Nature</a></li>
-    <li><a href="#" data-group="animal">Animal</a></li>
-    <li><a href="#" data-group="city">City</a></li>
-  </ul>
-
-  <div id="grid">
-    <div class="js-item column" data-groups='["space"]'>
-      <div class="aspect aspect--16x9">
-        <div class="aspect__inner"><img src="https://images.unsplash.com/uploads/141310026617203b5980d/c86b8baa?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=600&amp;h=338&amp;fit=crop&amp;s=882e851a008e83b7a80d05bdc96aa817" obj.alt="obj.alt"/></div>
-      </div>
-    </div>
-    <div class="js-item column" data-groups='["space"]'>
-      <div class="aspect aspect--16x9">
-        <div class="aspect__inner"><img src="https://images.unsplash.com/uploads/141310026617203b5980d/c86b8baa?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=600&amp;h=338&amp;fit=crop&amp;s=882e851a008e83b7a80d05bdc96aa817" obj.alt="obj.alt"/></div>
-      </div>
-    </div>
-    <div class="js-item column" data-groups='["nature"]'>
-      <div class="aspect aspect--16x9">
-        <div class="aspect__inner"><img src="https://images.unsplash.com/uploads/141310026617203b5980d/c86b8baa?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=600&amp;h=338&amp;fit=crop&amp;s=882e851a008e83b7a80d05bdc96aa817" obj.alt="obj.alt"/></div>
-      </div>
-    </div>
-    <div class="js-item column" data-groups='["nature"]'>
-      <div class="aspect aspect--16x9">
-        <div class="aspect__inner"><img src="https://images.unsplash.com/uploads/141310026617203b5980d/c86b8baa?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=600&amp;h=338&amp;fit=crop&amp;s=882e851a008e83b7a80d05bdc96aa817" obj.alt="obj.alt"/></div>
-      </div>
-    </div>
-    <div class="js-item column" data-groups='["animal"]'>
-      <div class="aspect aspect--16x9">
-        <div class="aspect__inner"><img src="https://images.unsplash.com/uploads/141310026617203b5980d/c86b8baa?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=600&amp;h=338&amp;fit=crop&amp;s=882e851a008e83b7a80d05bdc96aa817" obj.alt="obj.alt"/></div>
-      </div>
-    </div>
-    <div class="js-item column" data-groups='["animal"]'>
-      <div class="aspect aspect--16x9">
-        <div class="aspect__inner"><img src="https://images.unsplash.com/uploads/141310026617203b5980d/c86b8baa?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=600&amp;h=338&amp;fit=crop&amp;s=882e851a008e83b7a80d05bdc96aa817" obj.alt="obj.alt"/></div>
-      </div>
-    </div>
-    <div class="js-item column" data-groups='["city"]'>
-      <div class="aspect aspect--16x9">
-        <div class="aspect__inner"><img src="https://images.unsplash.com/uploads/141310026617203b5980d/c86b8baa?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=600&amp;h=338&amp;fit=crop&amp;s=882e851a008e83b7a80d05bdc96aa817" obj.alt="obj.alt"/></div>
-      </div>
-    </div>
-    <div class="js-item column" data-groups='["city"]'>
-      <div class="aspect aspect--16x9">
-        <div class="aspect__inner"><img src="https://images.unsplash.com/uploads/141310026617203b5980d/c86b8baa?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=600&amp;h=338&amp;fit=crop&amp;s=882e851a008e83b7a80d05bdc96aa817" obj.alt="obj.alt"/></div>
-      </div>
-    </div>
-    <div class="js-item column" data-groups='["nature"]'>
-      <div class="aspect aspect--16x9">
-        <div class="aspect__inner"><img src="https://images.unsplash.com/uploads/141310026617203b5980d/c86b8baa?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=600&amp;h=338&amp;fit=crop&amp;s=882e851a008e83b7a80d05bdc96aa817" obj.alt="obj.alt"/></div>
-      </div>
-    </div>
-    <div class="column my-sizer-element"></div>
-  </div>
 </ion-content>
