@@ -29,8 +29,6 @@ page-filter {
                 .card {
                     margin: 3px;
                     width: 100%;
-                    // not sure if i should set a height
-                    //height: 150px;
                 }
 
                 .filter-item {
@@ -41,39 +39,49 @@ page-filter {
             #sortingFilters {
 
                 overflow: hidden;
+                padding: 1em;
 
-                .accordian {
-                    width: 100%;
+                h2 {
+                  color: #342392;
                 }
 
-                h4.accordion-toggle {
-                    cursor: pointer;
-                    padding: 8px;
-                    margin-bottom: 0;
-                    margin-top: 2px;
+                .accordion-content-wrapper {
+                    border: 1px #488aff solid;
+                    border-radius: 10px;
+                    margin-bottom: 5px;
 
-                    .icon {
+                    h4.accordion-toggle {
+                      cursor: pointer;
+                      color: #488aff;
+                      padding: 8px;
+                      margin-bottom: 0;
+                      margin-top: 2px;
+
+                      .icon {
                         float: right;
+                      }
                     }
-                }
 
-                .accordion-content {
-                    display: none;
-                    background: #eee;
-                    border: 1px solid #ccc;
-                    padding: 5px;
-                }
+                    .accordion-content {
+                      display: none;
+                      padding: 5px;
+                      p {
+                        padding: 0px 5px;
+                      }
+                    }
 
-                .accordion-content.default {
-                    display: block;
-                }
+                    .accordion-content.default {
+                      display: block;
+                    }
 
-                ul {
-                    list-style-type: none;
-                }
+                    ul {
+                      list-style-type: none;
+                    }
 
-                .dormantState {
-                    background: #ccc;
+                    .dormantState {
+                      //background: #ccc;
+                    }
+
                 }
 
             }
