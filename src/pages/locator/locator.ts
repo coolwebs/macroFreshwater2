@@ -13,9 +13,11 @@ export class LocatorPage {
   @ViewChild('map') mapElement: ElementRef;
   map: any;
 
-  constructor(public navCtrl: NavController, public geolocation: Geolocation) {
+    // myButton(){
+    //     alert("clicked on my button");
+    // }
 
-  }
+  constructor(public navCtrl: NavController, public geolocation: Geolocation) { }
 
   ionViewDidLoad() {
 
@@ -75,18 +77,20 @@ export class LocatorPage {
       let myGeoCoords;
       myGeoCoords = document.getElementById('geoCoords');
 
-      myGeoCoords.innerHTML = '<h3>Detailed Gelocation information</h3><table class="geoTable"><tr><td class="noborder" border="0" style="background-color: #f9f9f9;"></td><th>Latitude</th><th>Longitude</th><th>Accuracy</th><th>Timestamp</th></tr>' +
-          '<tr><td class="head">Data Value</td>' +
+      myGeoCoords.innerHTML = '<h3>Detailed Gelocation information</h3><table class="geoTable"><tr><th class="noborder" border="0" style="background-color: #f9f9f9;"></th><th>Latitude</th><th>Longitude</th><th>Accuracy</th><th>Timestamp</th></tr>' +
+          '<tr><td class="head"><strong>Data Value</strong></td>' +
           '<td class="centre">' + position.coords.latitude  + '</td>' +
           '<td class="centre">' + position.coords.longitude + '</td>' +
           '<td class="centre">'  + position.coords.accuracy + '</td>' +
           '<td class="centre">' + new Date(position.timestamp) + '</td>'+
-          '<td><button ion-button (click)="loadMap()"><ion-icon name="reset"></ion-icon>Reset GPS Location</button></td></tr>';
-          '</table>' +
-              '<button ion-button (click)="loadMap()"><ion-icon name="reset"></ion-icon>Reset GPS Location</button>';
+          '</tr>' +
+          '</table>';
+
+      document.getElementById("reloadMap").style.display="block";
 
     }, (err) => {
       console.log(err);
+      alert(err + 'Please check your device connectivity. Dismissing this notice will attempt to retrieve your geolocation again');
     });
 
   }
