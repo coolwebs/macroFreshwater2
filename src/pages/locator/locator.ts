@@ -87,6 +87,7 @@ export class LocatorPage {
 
     }, (err) => {
       console.log(err);
+      alert(err);
     });
 
   }
