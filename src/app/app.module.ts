@@ -19,6 +19,7 @@ import { SpecimensProvider } from '../providers/specimens/specimens';
 import { SearchPipe } from '../pipes/search/search';
 import { Geolocation } from '@ionic-native/geolocation';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
+import { Network } from "@ionic-native/network";
 
 @NgModule({
   declarations: [
@@ -54,6 +55,7 @@ import { InAppBrowser } from '@ionic-native/in-app-browser';
     SplashScreen,
     InAppBrowser,
     Geolocation,
+    Network,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
   ]
 })
