@@ -513,6 +513,29 @@
 	  "filter_sensitivity": "veryTol"
     },
     {
+      "title": "Moth Larvae",
+      "thumbnail": "moth-larvae-th",
+      "featured_image": [
+        "moth-larvae/moth-larvae1"
+      ],
+      "video": "moth-larvae",
+      "poster": "moth-larvae-video-poster",
+      "sensitivity": "",
+      "phylum": "",
+      "class": "",
+      "order": "",
+      "family": "",
+      "size": "",
+      "habitat": "",
+      "diet": "",
+      "features": "",
+      "filter_size": "",
+      "filter_shell": "",
+      "filter_legs": "",
+      "filter_tail": "",
+      "filter_sensitivity": ""
+    },
+    {
       "title": "Non-Biting Midge",
       "cssClasses": "item nonmicro noshell nolegs notail tolerant",
       "thumbnail": "nonBitingMidge-th",
