@@ -81,6 +81,8 @@
         "caddisfly/caddisfly2",
         "caddisfly/caddisfly3"
       ],
+      "video": "caddisfly",
+      "poster": "caddisfly-video-poster",
       "sensitivity": "Tolerant",
       "phylum": "Anthropoda",
       "class": "Insecta",
@@ -343,6 +345,8 @@
         "hydra/hydra2",
         "hydra/hydra3"
       ],
+      "video": "hydra",
+      "poster": "hydra-video-poster",
       "sensitivity": "Very Tolerant",
       "phylum": "Cnidaria",
       "class": "Hydrozoa",
@@ -472,7 +476,8 @@
         "diving-beetle/diving-beetle2",
         "diving-beetle/diving-beetle3"
       ],
-      "vidoe": "diving-beetle-larvae",
+      "video": "diving-beetle",
+      "poster": "diving-beetle-video-poster",
       "sensitivity": "Very Tolerant",
       "phylum": "Arthropoda",
       "class": "Insecta",
@@ -487,6 +492,30 @@
 	  "filter_legs": "threepairs",
 	  "filter_tail": "notail",
 	  "filter_sensitivity": "veryTol"
+    },
+    {
+      "title": "Diving Beetle Larvae",
+      "cssClasses": "item nonmicro noshell threepairs notail veryTol",
+      "thumbnail": "divingBeetle-larvae-th",
+      "featured_image": [
+        "diving-beetle-larvae/diving-beetle-larvae1"
+      ],
+      "video": "diving-beetle-larvae",
+      "poster": "diving-beetle-larvae-video-poster",
+      "sensitivity": "Very Tolerant",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Coleoptera",
+      "family": "Dyticidae",
+      "size": "<em>Adult</em>: 3-35mm long. <em>Larva</em>: up to 55mm",
+      "habitat": "Ponds and slow-flowing streams; adults are often the first to colonise new habitats.",
+      "diet": "<strong>Carnivorous</strong> &ndash; small <strong>invertebrates</strong> or even small <strong>vertebrates</strong> including tadpoles, frogs and fish fry.",
+      "features": "<em>Adult</em>: long and slender antennae; flat, fringe-haired hind legs that act as oars. <br /><em>Larva:</em> elongated and slender; rounded, large head with prominent mouth parts.",
+      "filter_size": "nonmicro",
+      "filter_shell": "noshell",
+      "filter_legs": "threepairs",
+      "filter_tail": "notail",
+      "filter_sensitivity": "veryTol"
     },
     {
       "title": "Rat Tailed Maggot",
