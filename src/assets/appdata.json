@@ -649,13 +649,8 @@
       "thumbnail": "scavBeetle-th",
       "featured_image": [
         "scav-beetle/scav-beetle1",
-        "scav-beetle/scav-beetle2",
-        "scav-beetle/scav-beetle3",
-        "scav-beetle/scav-beetle4",
-        "scav-beetle/scav-beetle5"
+        "scav-beetle/scav-beetle2"
       ],
-      "video": "scavenger-beetle-larvae",
-      "poster": "scav-water-beetle-video-poster",
       "sensitivity": "Very Tolerant",
       "phylum": "Arthropoda",
       "class": "Insecta",
@@ -670,6 +665,32 @@
 	  "filter_legs": "threepairs",
 	  "filter_tail": "notail",
 	  "filter_sensitivity": "veryTol"
+    },
+    {
+      "title": "Scav Water Beetle Larvae",
+      "cssClasses": "item nonmicro noshell threepairs notail veryTol",
+      "thumbnail": "scavBeetle-larvae-th",
+      "featured_image": [
+        "scav-beetle-larvae/scav-beetle-larvae1",
+        "scav-beetle-larvae/scav-beetle-larvae2",
+        "scav-beetle-larvae/scav-beetle-larvae1"
+      ],
+      "video": "scavenger-beetle-larvae",
+      "poster": "scav-water-beetle-larvae-video-poster",
+      "sensitivity": "Very Tolerant",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Coleoptera",
+      "family": "Hydropilidae",
+      "size": "<em>Adult</em>: Less than 1mm to over 40mm.<br /><em>Larva</em>: up to 8mm",
+      "habitat": "<em>Adult</em>: still waters or quiet areas of flowing water.<br /><em>Larva</em>: among decaying plant material at the margins of the still waters or quiet areas of flowing water.",
+      "diet": "<em>Adult</em>: <strong>herbivorous</strong> (collectors, gatherers) &ndash; plant material. <br /><em>Larva</em>: <strong>carnivorous</strong> &ndash; small aquatic animals.",
+      "features": "<em>Adult</em>: dark or dull coloured with a smooth oval shape; <strong>antennae</strong> with seven to nine segments, the last three to five segments wider than the rest.<br /><em>Larva</em>: generally slender and flat; well-developed mouth parts and may have gills on <strong>abdomen</strong>.",
+      "filter_size": "nonmicro",
+      "filter_shell": "noshell",
+      "filter_legs": "threepairs",
+      "filter_tail": "notail",
+      "filter_sensitivity": "veryTol"
     },
     {
       "title": "Scud",
