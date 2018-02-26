@@ -81,6 +81,8 @@
         "caddisfly/caddisfly2",
         "caddisfly/caddisfly3"
       ],
+      "video": "caddisfly",
+      "poster": "caddisfly-video-poster",
       "sensitivity": "Tolerant",
       "phylum": "Anthropoda",
       "class": "Insecta",
