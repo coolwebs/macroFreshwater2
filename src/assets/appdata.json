@@ -729,6 +729,8 @@
         "boatman/water-boatman1",
         "boatman/water-boatman2"
       ],
+      "video": "boatman",
+      "poster": "boatman-video-poster",
       "sensitivity": "Sensitive",
       "phylum": "Arthropoda",
       "class": "Insecta",
