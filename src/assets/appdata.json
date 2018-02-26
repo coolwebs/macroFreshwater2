@@ -215,6 +215,29 @@
 	  "filter_sensitivity": "veryTol"
     },
     {
+      "title": "Freshwater Limpet",
+      "thumbnail": "limpet-th",
+      "featured_image": [
+        "freshwater-limpet/freshwater-limpet1"
+      ],
+      "video": "freshwater-limpet",
+      "poster": "freshwater-limpet-video-poster",
+      "sensitivity": "",
+      "phylum": "",
+      "class": "",
+      "order": "",
+      "family": "",
+      "size": "",
+      "habitat": "",
+      "diet": "",
+      "features": "",
+      "filter_size": "",
+      "filter_shell": "",
+      "filter_legs": "",
+      "filter_tail": "",
+      "filter_sensitivity": ""
+    },
+    {
       "title": "Freshwater Mussel",
       "cssClasses": "item nonmicro twoshell nolegs notail veryTol",
       "thumbnail": "mussel-th",
@@ -337,6 +360,29 @@
 	  "filter_legs": "fourpairs",
 	  "filter_tail": "onetail",
 	  "filter_sensitivity": "tolerant"
+    },
+    {
+      "title": "Gordian Worm",
+      "thumbnail": "gordian-th",
+      "featured_image": [
+        "gordian-worm/gordian-worm1"
+      ],
+      "video": "gordian-worm",
+      "poster": "gordian-worm-video-poster",
+      "sensitivity": "",
+      "phylum": "",
+      "class": "",
+      "order": "",
+      "family": "",
+      "size": "",
+      "habitat": "",
+      "diet": "",
+      "features": "",
+      "filter_size": "",
+      "filter_shell": "",
+      "filter_legs": "",
+      "filter_tail": "",
+      "filter_sensitivity": ""
     },
     {
       "title": "Hydra",
