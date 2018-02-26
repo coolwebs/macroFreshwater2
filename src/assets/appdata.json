@@ -343,6 +343,8 @@
         "hydra/hydra2",
         "hydra/hydra3"
       ],
+      "video": "hydra",
+      "poster": "hydra-video-poster",
       "sensitivity": "Very Tolerant",
       "phylum": "Cnidaria",
       "class": "Hydrozoa",
