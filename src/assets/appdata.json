@@ -215,6 +215,29 @@
 	  "filter_sensitivity": "veryTol"
     },
     {
+      "title": "Freshwater Limpet",
+      "thumbnail": "limpet-th",
+      "featured_image": [
+        "freshwater-limpet/freshwater-limpet1"
+      ],
+      "video": "freshwater-limpet",
+      "poster": "freshwater-limpet-video-poster",
+      "sensitivity": "",
+      "phylum": "",
+      "class": "",
+      "order": "",
+      "family": "",
+      "size": "",
+      "habitat": "",
+      "diet": "",
+      "features": "",
+      "filter_size": "",
+      "filter_shell": "",
+      "filter_legs": "",
+      "filter_tail": "",
+      "filter_sensitivity": ""
+    },
+    {
       "title": "Freshwater Mussel",
       "cssClasses": "item nonmicro twoshell nolegs notail veryTol",
       "thumbnail": "mussel-th",
@@ -339,6 +362,29 @@
 	  "filter_sensitivity": "tolerant"
     },
     {
+      "title": "Gordian Worm",
+      "thumbnail": "gordian-th",
+      "featured_image": [
+        "gordian-worm/gordian-worm1"
+      ],
+      "video": "gordian-worm",
+      "poster": "gordian-worm-video-poster",
+      "sensitivity": "",
+      "phylum": "",
+      "class": "",
+      "order": "",
+      "family": "",
+      "size": "",
+      "habitat": "",
+      "diet": "",
+      "features": "",
+      "filter_size": "",
+      "filter_shell": "",
+      "filter_legs": "",
+      "filter_tail": "",
+      "filter_sensitivity": ""
+    },
+    {
       "title": "Hydra",
       "cssClasses": "item nonmicro noshell nolegs notail veryTol",
       "thumbnail": "hydra-th",
@@ -389,6 +435,29 @@
 	  "filter_legs": "nolegs",
 	  "filter_tail": "notail",
 	  "filter_sensitivity": "veryTol"
+    },
+    {
+      "title": "Marsh Beetle Larvae",
+      "thumbnail": "marsh-beetle-larvae-th",
+      "featured_image": [
+        "marsh-beetle-larvae/marsh-beetle-larvae1"
+      ],
+      "video": "marsh-beetle-larvae",
+      "poster": "marsh-beetle-larvae-video-poster",
+      "sensitivity": "",
+      "phylum": "",
+      "class": "",
+      "order": "",
+      "family": "",
+      "size": "",
+      "habitat": "",
+      "diet": "",
+      "features": "",
+      "filter_size": "",
+      "filter_shell": "",
+      "filter_legs": "",
+      "filter_tail": "",
+      "filter_sensitivity": ""
     },
     {
       "title": "Mayfly",
@@ -442,6 +511,29 @@
 	  "filter_legs": "nolegs",
 	  "filter_tail": "notail",
 	  "filter_sensitivity": "veryTol"
+    },
+    {
+      "title": "Moth Larvae",
+      "thumbnail": "moth-larvae-th",
+      "featured_image": [
+        "moth-larvae/moth-larvae1"
+      ],
+      "video": "moth-larvae",
+      "poster": "moth-larvae-video-poster",
+      "sensitivity": "",
+      "phylum": "",
+      "class": "",
+      "order": "",
+      "family": "",
+      "size": "",
+      "habitat": "",
+      "diet": "",
+      "features": "",
+      "filter_size": "",
+      "filter_shell": "",
+      "filter_legs": "",
+      "filter_tail": "",
+      "filter_sensitivity": ""
     },
     {
       "title": "Non-Biting Midge",
@@ -557,13 +649,8 @@
       "thumbnail": "scavBeetle-th",
       "featured_image": [
         "scav-beetle/scav-beetle1",
-        "scav-beetle/scav-beetle2",
-        "scav-beetle/scav-beetle3",
-        "scav-beetle/scav-beetle4",
-        "scav-beetle/scav-beetle5"
+        "scav-beetle/scav-beetle2"
       ],
-      "video": "scavenger-beetle-larvae",
-      "poster": "scav-water-beetle-video-poster",
       "sensitivity": "Very Tolerant",
       "phylum": "Arthropoda",
       "class": "Insecta",
@@ -578,6 +665,32 @@
 	  "filter_legs": "threepairs",
 	  "filter_tail": "notail",
 	  "filter_sensitivity": "veryTol"
+    },
+    {
+      "title": "Scav Water Beetle Larvae",
+      "cssClasses": "item nonmicro noshell threepairs notail veryTol",
+      "thumbnail": "scavBeetle-larvae-th",
+      "featured_image": [
+        "scav-beetle-larvae/scav-beetle-larvae1",
+        "scav-beetle-larvae/scav-beetle-larvae2",
+        "scav-beetle-larvae/scav-beetle-larvae1"
+      ],
+      "video": "scavenger-beetle-larvae",
+      "poster": "scav-water-beetle-larvae-video-poster",
+      "sensitivity": "Very Tolerant",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Coleoptera",
+      "family": "Hydropilidae",
+      "size": "<em>Adult</em>: Less than 1mm to over 40mm.<br /><em>Larva</em>: up to 8mm",
+      "habitat": "<em>Adult</em>: still waters or quiet areas of flowing water.<br /><em>Larva</em>: among decaying plant material at the margins of the still waters or quiet areas of flowing water.",
+      "diet": "<em>Adult</em>: <strong>herbivorous</strong> (collectors, gatherers) &ndash; plant material. <br /><em>Larva</em>: <strong>carnivorous</strong> &ndash; small aquatic animals.",
+      "features": "<em>Adult</em>: dark or dull coloured with a smooth oval shape; <strong>antennae</strong> with seven to nine segments, the last three to five segments wider than the rest.<br /><em>Larva</em>: generally slender and flat; well-developed mouth parts and may have gills on <strong>abdomen</strong>.",
+      "filter_size": "nonmicro",
+      "filter_shell": "noshell",
+      "filter_legs": "threepairs",
+      "filter_tail": "notail",
+      "filter_sensitivity": "veryTol"
     },
     {
       "title": "Scud",
