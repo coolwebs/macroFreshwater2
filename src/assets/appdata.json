@@ -1068,12 +1068,8 @@
       "cssClasses": "nonmicro noshell threepairs notail tolerant",
       "thumbnail": "whirligig-th",
       "featured_image": [
-        "whirligig/whirligig-beetle1",
-        "whirligig/whirligig-beetle2",
-        "whirligig/whirligig-beetle3"
+        "whirligig/whirligig-beetle1"
       ],
-      "video": "whirligig-beetle-larvae",
-      "poster": "whirligig-larvae-video-poster",
       "sensitivity": "Tolerent",
       "phylum": "Arthropoda",
       "class": "Insecta",
@@ -1088,5 +1084,29 @@
 	  "filter_legs": "threepairs",
 	  "filter_tail": "notail",
 	  "filter_sensitivity": "tolerant"
+    },
+    {
+      "title": "Whirligig Beetle Larvae",
+      "thumbnail": "whirligig-larvae-th",
+      "featured_image": [
+        "whirligig-larvae/whirligig-beetle-larvae1",
+        "whirligig-larvae/whirligig-beetle-larvae2"
+      ],
+      "video": "whirligig-beetle-larvae",
+      "poster": "whirligig-larvae-video-poster",
+      "sensitivity": "Tolerent",
+      "phylum": "Arthropoda",
+      "class": "Insecta",
+      "order": "Coleoptera",
+      "family": "Gyrinidae",
+      "size": "<em>Adult</em>: 6 mm long.<br /><em>Larva</em>: up to 20mm.",
+      "habitat": "<em>Adult</em>: on the surface of still and slow-flowing waters.<br /> <em>Larva</em>: on logs and with the <strong>sediment</strong> under <strong>macrophytes.",
+      "diet": "<strong>Carniverous</strong> &ndash; both adults and larvae feed on other animals in the water column or animals that fall into the water.",
+      "features": "<em>Adult</em>: eyes completely divided into upper and lower sections by a strip of cuticle; very short and compact <strong>antennae</strong>; short, flattened and paddle-like mid and hind legs.<br /><em>Larva</em>: feathery gills on the first eight body segments; two pairs of gills on the ninth <strong>abdominal</strong> segment; pair of hooks at the end of the tenth segment.",
+      "filter_size": "nonmicro",
+      "filter_shell": "noshell",
+      "filter_legs": "threepairs",
+      "filter_tail": "notail",
+      "filter_sensitivity": "tolerant"
     }
 ]
