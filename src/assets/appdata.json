@@ -34,6 +34,8 @@
         "biting-midge/biting-midge2",
         "biting-midge/biting-midge3"
       ],
+      "video": "biting-midge-larvae",
+      "poster": "biting-midge-larvae-video-poster",
       "sensitivity": "Tolerant",
       "phylum": "Anthropoda",
       "class": "Insecta",
@@ -729,6 +731,8 @@
         "boatman/water-boatman1",
         "boatman/water-boatman2"
       ],
+      "video": "boatman",
+      "poster": "boatman-video-poster",
       "sensitivity": "Sensitive",
       "phylum": "Arthropoda",
       "class": "Insecta",
