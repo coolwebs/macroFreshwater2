@@ -437,6 +437,29 @@
 	  "filter_sensitivity": "veryTol"
     },
     {
+      "title": "Marsh Beetle Larvae",
+      "thumbnail": "marsh-beetle-larvae-th",
+      "featured_image": [
+        "marsh-beetle-larvae/marsh-beetle-larvae1"
+      ],
+      "video": "marsh-beetle-larvae",
+      "poster": "marsh-beetle-larvae-video-poster",
+      "sensitivity": "",
+      "phylum": "",
+      "class": "",
+      "order": "",
+      "family": "",
+      "size": "",
+      "habitat": "",
+      "diet": "",
+      "features": "",
+      "filter_size": "",
+      "filter_shell": "",
+      "filter_legs": "",
+      "filter_tail": "",
+      "filter_sensitivity": ""
+    },
+    {
       "title": "Mayfly",
       "cssClasses": "item nonmicro noshell threepairs threetail verySens",
       "thumbnail": "mayfly-th",
