@@ -2,11 +2,18 @@ page-filter {
 
     .content {
 
+      height: 100%;
+
         .grid {
 
             #galleryDisplay {
 
+              .grid {
+                height: 100%;
                 overflow: scroll;
+                border: 1px solid pink;
+                position: absolute;
+              }
 
                 .item {
                     width: 135px;
@@ -38,12 +45,17 @@ page-filter {
 
             #sortingFilters {
 
-                overflow: hidden;
+                //overflow: hidden;
                 padding: 1em;
+              height: 700px;
 
                 h2 {
                   color: #342392;
                     margin-top:0;
+                }
+
+                #accordion {
+
                 }
 
                 .accordion-content-wrapper {
