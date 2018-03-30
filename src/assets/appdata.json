@@ -526,6 +526,8 @@
         "nonBiting-midge/nonBiting-midge-larva3",
         "nonBiting-midge/nonBiting-midge-larva4"
       ],
+      "video": "non-biting-midge-larvae",
+      "poster": "non-biting-midge-video-poster",
       "sensitivity": "Very Tolerant",
       "phylum": "Arthropoda",
       "class": "Insecta",
