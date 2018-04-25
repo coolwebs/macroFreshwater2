@@ -100,7 +100,7 @@ export class LocatorPage {
 
     }, (err) => {
       console.log(err);
-      alert(err + 'Please check your device connectivity. Dismissing this notice will attempt to retrieve your geolocation again');
+      alert(err + 'Please check your device network connectivity, it is necessary to find your location. Dismissing this notice will attempt to retrieve your geolocation again.');
     });
 
   }
