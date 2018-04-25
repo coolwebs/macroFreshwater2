@@ -31,7 +31,7 @@ export class HomePage {
         this.platform.ready().then(() => {
 
             setTimeout(() => {
-                if (this.network.type === null) {
+                if (this.network.type === 'none') {
                     this.toast.create({
                         message: "Your device is not connected to a network. If you want to use the geolocation service, you must connect your device to a network.",
                         duration: 5000
