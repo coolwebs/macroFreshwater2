@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { Http } from "@angular/http";
 import "rxjs/add/operator/map";
 
-import {NavController, ToastController, Alert, Platform} from 'ionic-angular';
+import {NavController, ToastController, Platform} from 'ionic-angular';
 import { SpecimensProvider } from  '../../providers/specimens/specimens';
 import { InAppBrowser } from "@ionic-native/in-app-browser";
 import { Network } from "@ionic-native/network";
@@ -29,7 +29,16 @@ export class HomePage {
     ionViewDidLoad() {
 
         this.platform.ready().then(() => {
-            alert("connection is "+ this.network.type);
+
+            setTimeout(() => {
+                if (this.network.type === null) {
+                    this.toast.create({
+                        message: "Your device is not connected to a network. If you want to use the geolocation service, you must connect your device to a network.",
+                        duration: 5000
+                    }).present();
+                }
+            }, 3000);
+
         });
 
     }
