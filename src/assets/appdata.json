@@ -97,6 +97,27 @@
 	  "filter_sensitivity": "verySens"
     },
     {
+      "title": "Colonial Ciliate",
+      "thumbnail": "cciliate-th",
+      "featured_image": [
+        "cciliate/colonial-ciliate1"
+      ],
+      "video": "cciliate",
+      "poster": "cciliate-video-poster",
+      "sensitivity": "Very Tolerant",
+      "phylum": "Protozoan",
+      "class": "Ciliata",
+      "size": "Microscopic",
+      "habitat": "Various. Some are free swimming, some are sedentary.",
+      "diet": "Filter feeder that eats bacteria and small protozoans",
+      "features": "Usually transparent or semi-transparent. They move by beating the cilia (hairlike organelles), although not all are free-swimming. Some species will attach themselves to substrate. Reproduction happens via fission.",
+      "filter_size": "micro",
+      "filter_shell": "noshell",
+      "filter_legs": "nolegs",
+      "filter_tail": "notail",
+      "filter_sensitivity": "veryTol"
+    },
+    {
       "title": "Creeping Water Beetle",
       "thumbnail": "waterBeetle-th",
       "featured_image": [
@@ -543,6 +564,30 @@
 	  "filter_legs": "nolegs",
 	  "filter_tail": "notail",
 	  "filter_sensitivity": "tolerant"
+    },
+    {
+      "title": "Pygmy Backswimmer",
+      "thumbnail": "pygmy-backswimmer-th",
+      "featured_image": [
+        "pygmy-backswimmer/pygmy-backswimmer1",
+        "pygmy-backswimmer/pygmy-backswimmer2"
+      ],
+      "video": "pygmy-backswimmer",
+      "poster": "non-biting-midge-video-poster",
+      "sensitivity": "Very Tolerant",
+      "phylum": "Arthopoda",
+      "class": "Insecta",
+      "order": "Hemiptera",
+      "family": "Pleidae",
+      "size": "2-3mm",
+      "habitat": "Vascular plants in still water",
+      "diet": "Carnivores feeding on microcrustaceans (water fleas and seed shrimp), mosquito larvae and other invertebrates",
+      "features": "Typically, light brown, their body is oval, plump, with a concave back. Their compound eyes are large and the ocelli vestigial, like in other Nepomorpha. A characteristic for the infraorder are the short and weak antennae which are usually carried tucked to the head. There are “swimming hairs” present on middle and hind legs.",
+      "filter_size": "nonmicro",
+      "filter_shell": "noshell",
+      "filter_legs": "threepairs",
+      "filter_tail": "notail",
+      "filter_sensitivity": "veryTol"
     },
     {
       "title": "Diving Beetle",
