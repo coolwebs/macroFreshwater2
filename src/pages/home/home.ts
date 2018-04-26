@@ -15,13 +15,30 @@ export class HomePage {
     constructor(private toast: ToastController, private network: Network, private platform: Platform, private inAppBrowser: InAppBrowser) {
     }
 
+    displayNetworkConnect(connectionState: string){
+        let networkType = this.network.type;
+        this.toast.create({
+            message: `You are now ${connectionState} with ${networkType} connection`,
+            duration: 5000
+        }).present();
+    }
+
+    displayNetworkError(){
+        this.toast.create({
+            message: `You do not have a network connection, please check`,
+            duration: 5000
+        }).present();
+    }
+
     ionViewDidEnter() {
         this.network.onConnect().subscribe(data => {
-            console.log(data);
+            console.log(data)
+            this.displayNetworkConnect(data.type);
         }, error => console.error(error));
 
         this.network.onDisconnect().subscribe(data => {
             console.log(data)
+            this.displayNetworkError();
         }, error => console.error(error));
 
     }
