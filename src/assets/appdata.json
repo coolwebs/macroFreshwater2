@@ -237,18 +237,27 @@
     "filter_sensitivity": "veryTol"
   },
   {
-      "title": "Dragonfly",
-      "thumbnail": "dragonfly-th",
-      "featured_image": [
-        "dragonfly-nymph/dragonfly-nymph1",
-        "dragonfly-nymph/dragonfly-nymph2",
-        "dragonfly-nymph/dragonfly-nymph3"
-      ],
-	  "filter_size": "nonmicro",
-	  "filter_shell": "noshell",
-	  "filter_legs": "threepairs",
-	  "filter_tail": "notail",
-	  "filter_sensitivity": "tolerant"
+    "title": "Dragonfly Nymph",
+    "thumbnail": "dragonfly-th",
+    "featured_image": [
+      "dragonfly-nymph/dragonfly-nymph1",
+      "dragonfly-nymph/dragonfly-nymph2",
+      "dragonfly-nymph/dragonfly-nymph3"
+    ],
+    "sensitivity": "Tolerant",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Odonata",
+    "family": "More than fourteen families",
+    "size": "Up to 50mm",
+    "habitat": "Under stones and among bark, branches and reeds in slow-flowing pools",
+    "diet": "<strong>Carnivorous</strong> – aquatic insects and crustaceans",
+    "features": "Stout bodies; no external gills, but water can be passed rapidly through an internal rectal gills for breathing or to escape predators; rectal gill is connected to outside of body by an anal pyramid on the end of the abdomen",
+    "filter_size": "nonmicro",
+    "filter_shell": "noshell",
+    "filter_legs": "threepairs",
+    "filter_tail": "notail",
+    "filter_sensitivity": "tolerant"
     },
     {
       "title": "Flatworm",
@@ -621,8 +630,22 @@
       "featured_image": [
         "rat-tailed-maggot/rat-tailed-maggot1"
       ],
-      "video": "",
-      "poster": "red-tailed-maggot-video-poster"
+      "video": "rat-tailled-maggot",
+      "poster": "red-tailed-maggot-video-poster",
+      "sensitivity": "",
+      "phylum": "",
+      "class": "",
+      "order": "",
+      "family": "",
+      "size": "",
+      "habitat": "",
+      "diet": "",
+      "features": "",
+      "filter_size": "",
+      "filter_shell": "",
+      "filter_legs": "",
+      "filter_tail": "",
+      "filter_sensitivity": ""
     },
     {
       "title": "Rifle Beetle",
