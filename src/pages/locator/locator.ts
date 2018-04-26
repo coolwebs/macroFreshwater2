@@ -1,6 +1,7 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, ToastController } from 'ionic-angular';
 import { Geolocation } from '@ionic-native/geolocation';
+import { Network } from '@ionic-native/network';
 
 declare var google;
 
@@ -13,17 +14,26 @@ export class LocatorPage {
   @ViewChild('map') mapElement: ElementRef;
   map: any;
 
-    // myButton(){
-    //     alert("clicked on my button");
-    // }
-
-  constructor(public navCtrl: NavController, public geolocation: Geolocation) { }
+  constructor(public navCtrl: NavController, public geolocation: Geolocation, private network: Network, private toast: ToastController) { }
 
   ionViewDidLoad() {
 
     // Load the google map
     this.loadMap();
 
+  }
+
+  ionViewDidEnter() {
+      this.network.onConnect().subscribe(data => {
+          console.log(data);
+          console.log("going to try and load map again");
+          this.navCtrl.setRoot(this.navCtrl.getActive().component);
+          //this.loadMap();
+      }, error => console.error(error));
+
+      this.network.onDisconnect().subscribe(data => {
+          console.log(data)
+      }, error => console.error(error));
   }
 
   // Function to add marker at current location
@@ -35,7 +45,7 @@ export class LocatorPage {
       position: this.map.getCenter()
     });
 
-    let content = "<h4>Information!</h4>";
+    let content = "<p>Your current location</p>";
 
     this.addInfoWindow(marker, content);
 
@@ -90,7 +100,7 @@ export class LocatorPage {
 
     }, (err) => {
       console.log(err);
-      alert(err + 'Please check your device connectivity. Dismissing this notice will attempt to retrieve your geolocation again');
+      alert(err + 'Please check your device network connectivity, it is necessary to find your location. Dismissing this notice will attempt to retrieve your geolocation again.');
     });
 
   }
