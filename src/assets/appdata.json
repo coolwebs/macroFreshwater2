@@ -188,7 +188,55 @@
 	  "filter_tail": "threetail",
 	  "filter_sensitivity": "tolerant"
     },
-    {
+  {
+    "title": "Diving Beetle",
+    "thumbnail": "divingBeetle-th",
+    "featured_image": [
+      "diving-beetle/diving-beetle1",
+      "diving-beetle/diving-beetle2",
+      "diving-beetle/diving-beetle3"
+    ],
+    "video": "diving-beetle",
+    "poster": "diving-beetle-video-poster",
+    "sensitivity": "Very Tolerant",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Coleoptera",
+    "family": "Dyticidae",
+    "size": "<em>Adult</em>: 3-35mm long. <em>Larva</em>: up to 55mm",
+    "habitat": "Ponds and slow-flowing streams; adults are often the first to colonise new habitats.",
+    "diet": "<strong>Carnivorous</strong> &ndash; small <strong>invertebrates</strong> or even small <strong>vertebrates</strong> including tadpoles, frogs and fish fry.",
+    "features": "<em>Adult</em>: long and slender antennae; flat, fringe-haired hind legs that act as oars. <br /><em>Larva:</em> elongated and slender; rounded, large head with prominent mouth parts.",
+    "filter_size": "nonmicro",
+    "filter_shell": "noshell",
+    "filter_legs": "threepairs",
+    "filter_tail": "notail",
+    "filter_sensitivity": "veryTol"
+  },
+  {
+    "title": "Diving Beetle Larvae",
+    "thumbnail": "divingBeetle-larvae-th",
+    "featured_image": [
+      "diving-beetle-larvae/diving-beetle-larvae1"
+    ],
+    "video": "diving-beetle-larvae",
+    "poster": "diving-beetle-larvae-video-poster",
+    "sensitivity": "Very Tolerant",
+    "phylum": "Arthropoda",
+    "class": "Insecta",
+    "order": "Coleoptera",
+    "family": "Dyticidae",
+    "size": "Up to 55mm",
+    "habitat": "Prefer slow moving streams, pond and billabongs",
+    "diet": "Other aquatic invertebrates and sometimes small aquatic vertebrates (fish, tadpoles)",
+    "features": "No external gills (adults and larvae have to come to the surface to breath). Head is wider than the neck and contains antennae. Large distinct mouth parts for capturing and holding prey. Most species inject digestive enzymes into their prey and removed the resulting juices.",
+    "filter_size": "nonmicro",
+    "filter_shell": "noshell",
+    "filter_legs": "threepairs",
+    "filter_tail": "notail",
+    "filter_sensitivity": "veryTol"
+  },
+  {
       "title": "Dragonfly",
       "thumbnail": "dragonfly-th",
       "featured_image": [
@@ -267,28 +315,6 @@
       "features": "Shell consists of two separate valves hinged together.",
 	  "filter_size": "nonmicro",
 	  "filter_shell": "twoshell",
-	  "filter_legs": "nolegs",
-	  "filter_tail": "notail",
-	  "filter_sensitivity": "veryTol"
-    },
-    {
-      "title": "Segmented Worm",
-      "thumbnail": "worm-th",
-      "featured_image": [
-        "segmented-worm/segmented-worm1",
-        "segmented-worm/segmented-worm2",
-        "segmented-worm/segmented-worm3"
-      ],
-      "sensitivity": "Very Tolerant",
-      "phylum": "Annelida",
-      "class": "Oligochaeta",
-      "family": "Seven families",
-      "size": "1&mdash;30mm",
-      "habitat": "Almost all water bodies",
-      "diet": "<strong>Detritivorous</strong> and <strong>carnivorous</strong> &ndash; small pieces of dead and decomposing plants; animals including other invertebrates",
-      "features": "Usually red or brown; stiff, needle-like structures (setae) located on the top and bottom of each of the body segments; similar to earthworms in appearance and movement.",
-	  "filter_size": "nonmicro",
-	  "filter_shell": "noshell",
 	  "filter_legs": "nolegs",
 	  "filter_tail": "notail",
 	  "filter_sensitivity": "veryTol"
@@ -590,54 +616,6 @@
       "filter_sensitivity": "veryTol"
     },
     {
-      "title": "Diving Beetle",
-      "thumbnail": "divingBeetle-th",
-      "featured_image": [
-        "diving-beetle/diving-beetle1",
-        "diving-beetle/diving-beetle2",
-        "diving-beetle/diving-beetle3"
-      ],
-      "video": "diving-beetle",
-      "poster": "diving-beetle-video-poster",
-      "sensitivity": "Very Tolerant",
-      "phylum": "Arthropoda",
-      "class": "Insecta",
-      "order": "Coleoptera",
-      "family": "Dyticidae",
-      "size": "<em>Adult</em>: 3-35mm long. <em>Larva</em>: up to 55mm",
-      "habitat": "Ponds and slow-flowing streams; adults are often the first to colonise new habitats.",
-      "diet": "<strong>Carnivorous</strong> &ndash; small <strong>invertebrates</strong> or even small <strong>vertebrates</strong> including tadpoles, frogs and fish fry.",
-      "features": "<em>Adult</em>: long and slender antennae; flat, fringe-haired hind legs that act as oars. <br /><em>Larva:</em> elongated and slender; rounded, large head with prominent mouth parts.",
-	  "filter_size": "nonmicro",
-	  "filter_shell": "noshell",
-	  "filter_legs": "threepairs",
-	  "filter_tail": "notail",
-	  "filter_sensitivity": "veryTol"
-    },
-    {
-      "title": "Diving Beetle Larvae",
-      "thumbnail": "divingBeetle-larvae-th",
-      "featured_image": [
-        "diving-beetle-larvae/diving-beetle-larvae1"
-      ],
-      "video": "diving-beetle-larvae",
-      "poster": "diving-beetle-larvae-video-poster",
-      "sensitivity": "Very Tolerant",
-      "phylum": "Arthropoda",
-      "class": "Insecta",
-      "order": "Coleoptera",
-      "family": "Dyticidae",
-      "size": "Up to 55mm",
-      "habitat": "Prefer slow moving streams, pond and billabongs",
-      "diet": "Other aquatic invertebrates and sometimes small aquatic vertebrates (fish, tadpoles)",
-      "features": "No external gills (adults and larvae have to come to the surface to breath). Head is wider than the neck and contains antennae. Large distinct mouth parts for capturing and holding prey. Most species inject digestive enzymes into their prey and removed the resulting juices.",
-      "filter_size": "nonmicro",
-      "filter_shell": "noshell",
-      "filter_legs": "threepairs",
-      "filter_tail": "notail",
-      "filter_sensitivity": "veryTol"
-    },
-    {
       "title": "Rat Tailed Maggot",
       "thumbnail": "rtmaggot-th",
       "featured_image": [
@@ -761,6 +739,28 @@
 	  "filter_legs": "fourpairs",
 	  "filter_tail": "notail",
 	  "filter_sensitivity": "tolerant"
+    },
+    {
+      "title": "Segmented Worm",
+      "thumbnail": "worm-th",
+      "featured_image": [
+        "segmented-worm/segmented-worm1",
+        "segmented-worm/segmented-worm2",
+        "segmented-worm/segmented-worm3"
+      ],
+      "sensitivity": "Very Tolerant",
+      "phylum": "Annelida",
+      "class": "Oligochaeta",
+      "family": "Seven families",
+      "size": "1&mdash;30mm",
+      "habitat": "Almost all water bodies",
+      "diet": "<strong>Detritivorous</strong> and <strong>carnivorous</strong> &ndash; small pieces of dead and decomposing plants; animals including other invertebrates",
+      "features": "Usually red or brown; stiff, needle-like structures (setae) located on the top and bottom of each of the body segments; similar to earthworms in appearance and movement.",
+      "filter_size": "nonmicro",
+      "filter_shell": "noshell",
+      "filter_legs": "nolegs",
+      "filter_tail": "notail",
+      "filter_sensitivity": "veryTol"
     },
     {
       "title": "Slater",
