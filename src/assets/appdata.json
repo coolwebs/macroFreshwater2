@@ -455,11 +455,6 @@
     {
       "title": "Leech",
       "thumbnail": "leech-th",
-      "featured_image": [
-        "leech/leech1",
-        "leech/leech2",
-        "leech/leech3"
-      ],
       "video": "leech",
       "poster": "leech-video-poster",
       "sensitivity": "Very Tolerant",
