@@ -277,7 +277,7 @@
       "habitat": "Substrate or the underside of the water surface film &ndash; in springs, ponds, brooks, ditches, marshes and lakes",
       "diet": "<strong>Carnivorous</strong> &ndash; soft or decomposing animal matter",
       "features": "Elongated body &ndash; flattened or cylindrical; dark eyes within white spots that can often be seen; blind gut that allows them to feed and remove waste from the same opening.",
-	  "filter_size": "nonmicro",
+	  "filter_size": "micro",
 	  "filter_shell": "noshell",
 	  "filter_legs": "nolegs",
 	  "filter_tail": "notail",
