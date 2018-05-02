@@ -493,10 +493,10 @@
       "habitat": "In aquatic plants and structure close to the shore line in still water bodies (ponds, dams, wetland, billabongs). Adults are terrestrial, living around the fringes of such water.",
       "diet": "Larvae filter feed detrital matter from the surfaces of leaves, stones, logs etc",
       "features": "8 Genre of Marsh Beetle have been recorded in Australia. Greater than 10 body segments, with the last plate covering the hind legs. Strong legs enable larvae to climb through and cling to plant matter. Head is sharply bent downwards and antenna are obvious.",
-      "filter_size": "",
-      "filter_shell": "",
-      "filter_legs": "",
-      "filter_tail": "",
+      "filter_size": "nonmicro",
+      "filter_shell": "noshell",
+      "filter_legs": "threepairs",
+      "filter_tail": "notail",
       "filter_sensitivity": "sensitive"
     },
     {
