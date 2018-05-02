@@ -97,6 +97,30 @@
 	  "filter_sensitivity": "verySens"
     },
     {
+      "title": "Case Carrying Worm",
+      "thumbnail": "case-worm-th",
+      "featured_image": [
+        "case-worm/cc-worm1",
+        "case-worm/cc-worm2",
+        "case-worm/cc-worm3"
+      ],
+      "video": "cc-worm",
+      "poster": "cc-worm1-video-poster",
+      "sensitivity": "Tolerant",
+      "phylum": "Annelida",
+      "class": "Clitellata",
+      "order": "Tubificida",
+      "size": "",
+      "habitat": "",
+      "diet": "",
+      "features": "",
+      "filter_size": "micro",
+      "filter_shell": "noshell",
+      "filter_legs": "nolegs",
+      "filter_tail": "notail",
+      "filter_sensitivity": "tolerant"
+    },
+    {
       "title": "Colonial Ciliate",
       "thumbnail": "cciliate-th",
       "featured_image": [
@@ -633,7 +657,7 @@
       "video": "rat-tailled-maggot",
       "poster": "red-tailed-maggot-video-poster",
       "sensitivity": "Very Tolerant",
-      "phylum": "",
+      "phylum": "Arthropoda",
       "class": "Insecta",
       "order": "Diptera ",
       "family": "Syrphidae",
