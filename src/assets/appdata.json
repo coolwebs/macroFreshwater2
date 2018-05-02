@@ -420,10 +420,10 @@
       "habitat": "Freshwater",
       "diet": "Adults worms do not eat. Larvae are parasitic (internal)",
       "features": "Around 300 species have been classified and all species have characteristic differences. Gordian Worms or Hair Worms are dioecious (have male and female sexes). One they reach the adult stage they stop eating and search for a mate to reproduce. Larvae and small (100um) and are ingested by terrestrial hosts when drinking contaminated water.",
-      "filter_size": "",
-      "filter_shell": "",
-      "filter_legs": "",
-      "filter_tail": "",
+      "filter_size": "nonmicro",
+      "filter_shell": "noshell",
+      "filter_legs": "nolegs",
+      "filter_tail": "notail",
       "filter_sensitivity": "tolerant"
     },
     {
