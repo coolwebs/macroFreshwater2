@@ -13,7 +13,7 @@
   <!--<button ion-button type="button" (click)="sort()">Sort</button>-->
 
   <ion-list>
-    <ion-item *ngFor="let glossaryItem of glossaryList | search : terms">
+    <ion-item text-wrap *ngFor="let glossaryItem of glossaryList | search : terms">
       <h2>{{ glossaryItem.title }}</h2>
       <p>{{ glossaryItem.description }}</p>
     </ion-item>
