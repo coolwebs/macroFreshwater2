@@ -9,7 +9,7 @@
   },
   {
     "title": "Algae",
-    "description": "A simple aquatic plant that contains chlorophyll, but lack leaves, roots and vascular tissue."
+    "description": "A simple aquatic plant that contains chlorophyll, but lacks leaves, roots and vascular tissue."
   },
   {
     "title": "Antennae",
@@ -21,7 +21,7 @@
   },
   {
     "title": "Biotic",
-    "description": "Component of as environment that is living."
+    "description": "Component of an environment that is living."
   },
   {
     "title": "Carapace",
@@ -33,14 +33,14 @@
   },
   {
     "title": "Copepods",
-    "description": "Small microscopic aquatic crustacean."
+    "description": "Small microscopic aquatic crustaceans."
   },
   {
     "title": "Crustaceans",
-    "description": "A group of organisms typical covered in a hard shell (yabbies, crabs, shrimp)."
+    "description": "A group of organisms typically covered in a hard shell (yabbies, crabs, shrimp)."
   },
   {
-    "title": "Detitivorous",
+    "title": "Detritivorous",
     "description": "An organism that feeds on and breaks down dead plant and animal matter. They are essential to returning nutrients to the ecosystem."
   },
   {
@@ -49,7 +49,7 @@
   },
   {
     "title": "Elytra",
-    "description": "Hard forewings used to protect the membranous hind wings of insects in the order Colepotera."
+    "description": "Hard forewings used to protect the membranous hind wings of insects in the order Coleoptera."
   },
   {
     "title": "Filter feeding",
@@ -57,7 +57,7 @@
   },
   {
     "title": "Gill",
-    "description": "The respiratory organ of aquatic animals, as fish, that breathe oxygen dissolved in water."
+    "description": "The respiratory organ of aquatic animals, such as fish, that breathe oxygen dissolved in water."
   },
   {
     "title": "Herbivorous",
@@ -68,7 +68,7 @@
     "description": "Tends to repel or fails to mix with water."
   },
   {
-    "title": "Inverterbrate",
+    "title": "Invertebrate",
     "description": "An animal lacking a backbone."
   },
   {
@@ -137,7 +137,7 @@
   },
   {
     "title": "Substrate",
-    "description": "The surface on which an organism grows on, or is attached to."
+    "description": "The surface on which an organism grows, or is attached to."
   },
   {
     "title": "Tarsi",
