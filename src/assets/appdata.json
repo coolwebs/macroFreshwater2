@@ -104,10 +104,10 @@
     "phylum": "Annelida",
     "class": "Clitellata",
     "order": "Tubificida",
-    "size": "Mauris faucibus egestas augue",
-    "habitat": "Etiam id pharetra leo. Duis finibus tellus at est fringilla sollicitudin sit amet vel magna. Aliquam erat volutpat. Ut pretium, libero vitae imperdiet lacinia, purus ligula condimentum sem, in maximus augue tellus in elit",
-    "diet": "Aenean hendrerit lobortis tempus. Phasellus purus augue, sodales ut urna nec, luctus lobortis velit.",
-    "features": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim, diam vitae efficitur aliquam, elit orci pharetra nunc, sit amet condimentum erat tortor quis ante. Ut porttitor bibendum ante et pellentesque. Phasellus iaculis, eros sit amet sollicitudin volutpat, diam purus lobortis sem, vel consectetur nisl leo posuere ligula. Integer in vehicula magna, eget accumsan urna",
+    "size": "less than 1mm",
+    "habitat": "Can be found in a wide variety of habitats, and often found just below the surface on floating vegetation. Some species can survive in low oxygenated waters and can sometimes be found in large numbers in organically polluted waters.",
+    "diet": "Detritivore",
+    "features": "Elongated, cylindrical, soft body, body wall thin, translucent or opaque, colour usually brown, pinkish or red body segmented, number of segments varies between species. The Worms secrete a mucus that allows particles to stick together forming a protective covering that they pull around with them. They can be easily identified by their ‘worm-like’ movement as they slide in and out of their ‘case.’",
     "filter_size": "micro",
     "filter_shell": "noshell",
     "filter_legs": "nolegs",
@@ -120,7 +120,7 @@
     "single_image": "cciliate/colonial-ciliate1",
     "video": "colonial-ciliate",
     "poster": "cciliate-video-poster",
-    "sensitivity": "Very Tolerant",
+    "sensitivity": "Sensitive",
     "phylum": "Protozoan",
     "class": "Ciliata",
     "size": "Microscopic",
@@ -131,7 +131,7 @@
     "filter_shell": "noshell",
     "filter_legs": "nolegs",
     "filter_tail": "notail",
-    "filter_sensitivity": "veryTol"
+    "filter_sensitivity": "sensitive"
   },
   {
     "title": "Creeping Water Beetle",
