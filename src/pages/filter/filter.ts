@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Http } from "@angular/http";
 import "rxjs/add/operator/map";
 import * as $ from "jquery";
 
@@ -75,7 +74,7 @@ export class FilterPage {
 
 	public allMacros = [];
 
-	constructor(private specimensProvider: SpecimensProvider, private http: Http, public navCtrl: NavController) {
+	constructor(private specimensProvider: SpecimensProvider, public navCtrl: NavController) {
 
 		$(document).ready(function($) {
 

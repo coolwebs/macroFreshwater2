@@ -1,5 +1,5 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
-import { NavController, ToastController } from 'ionic-angular';
+import { NavController, ToastController, Platform } from 'ionic-angular';
 import { Geolocation } from '@ionic-native/geolocation';
 import { Network } from '@ionic-native/network';
 
@@ -14,9 +14,37 @@ export class LocatorPage {
   @ViewChild('map') mapElement: ElementRef;
   map: any;
 
-  constructor(public navCtrl: NavController, public geolocation: Geolocation, private network: Network, private toast: ToastController) { }
+  constructor(public navCtrl: NavController, public geolocation: Geolocation, private toast: ToastController, private network: Network, private platform: Platform) { }
+
+  displayNetworkConnect(connectionState: string){
+      let networkType = this.network.type;
+      this.toast.create({
+          message: `You are now ${connectionState} with ${networkType} connection`,
+          duration: 5000
+      }).present();
+  }
+
+  displayNetworkError(){
+      this.toast.create({
+          message: `You do not have a network connection, please check`,
+          duration: 5000
+      }).present();
+  }
 
   ionViewDidLoad() {
+
+    this.platform.ready().then(() => {
+
+        setTimeout(() => {
+            if (this.network.type === 'none') {
+                this.toast.create({
+                    message: "Your device is not connected to a network. If you want to use the geolocation service, you must connect your device to a network.",
+                    duration: 5000
+                }).present();
+            }
+        }, 3000);
+
+    });
 
     // Load the google map
     this.loadMap();
@@ -26,13 +54,13 @@ export class LocatorPage {
   ionViewDidEnter() {
       this.network.onConnect().subscribe(data => {
           console.log(data);
-          console.log("going to try and load map again");
+          this.displayNetworkConnect(data.type);
           this.navCtrl.setRoot(this.navCtrl.getActive().component);
-          //this.loadMap();
       }, error => console.error(error));
 
       this.network.onDisconnect().subscribe(data => {
           console.log(data)
+          this.displayNetworkError();
       }, error => console.error(error));
   }
 

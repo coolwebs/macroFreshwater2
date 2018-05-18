@@ -1,9 +1,7 @@
 import { Component } from '@angular/core';
-import { Http } from "@angular/http";
 import "rxjs/add/operator/map";
 
-import {NavController, ToastController, Platform} from 'ionic-angular';
-import { SpecimensProvider } from  '../../providers/specimens/specimens';
+import { NavController, ToastController, Platform } from 'ionic-angular';
 import { InAppBrowser } from "@ionic-native/in-app-browser";
 import { Network } from "@ionic-native/network";
 
@@ -13,6 +11,12 @@ import { Network } from "@ionic-native/network";
 })
 export class HomePage {
     constructor(private toast: ToastController, private network: Network, private platform: Platform, private inAppBrowser: InAppBrowser) {
+    }
+
+    // function for activating the InAppBrowser links on contribution page
+    public openWithInAppBrowser(url : string){
+        let target = "_blank";
+        this.iab.create(url,target);
     }
 
     displayNetworkConnect(connectionState: string){
