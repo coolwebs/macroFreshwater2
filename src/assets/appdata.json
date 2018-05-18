@@ -300,7 +300,11 @@
   {
     "title": "Freshwater Limpet",
     "thumbnail": "limpet-th",
-    "single_image": "freshwater-limpet/freshwater-limpet1",
+    "featured_image": [
+      "freshwater-limpet/freshwater-limpet1",
+      "freshwater-limpet/freshwater-limpet2",
+      "freshwater-limpet/freshwater-limpet3"
+    ],
     "video": "freshwater-limpet",
     "poster": "freshwater-limpet-video-poster",
     "sensitivity": "",
