@@ -300,7 +300,11 @@
   {
     "title": "Freshwater Limpet",
     "thumbnail": "limpet-th",
-    "single_image": "freshwater-limpet/freshwater-limpet1",
+    "featured_image": [
+      "freshwater-limpet/freshwater-limpet1",
+      "freshwater-limpet/freshwater-limpet2",
+      "freshwater-limpet/freshwater-limpet3"
+    ],
     "video": "freshwater-limpet",
     "poster": "freshwater-limpet-video-poster",
     "sensitivity": "",
@@ -702,7 +706,7 @@
     "featured_image": [
       "scav-beetle-larvae/scav-beetle-larvae1",
       "scav-beetle-larvae/scav-beetle-larvae2",
-      "scav-beetle-larvae/scav-beetle-larvae1"
+      "scav-beetle-larvae/scav-beetle-larvae3"
     ],
     "video": "scavenger-beetle-larvae",
     "poster": "scav-water-beetle-larvae-video-poster",
