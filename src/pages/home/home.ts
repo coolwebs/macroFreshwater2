@@ -10,7 +10,7 @@ import { Network } from "@ionic-native/network";
   templateUrl: 'home.html'
 })
 export class HomePage {
-    constructor(private toast: ToastController, private network: Network, private platform: Platform, private inAppBrowser: InAppBrowser) {
+    constructor(public navCtrl: NavController, private toast: ToastController, private network: Network, private platform: Platform, private iab: InAppBrowser) {
     }
 
     // function for activating the InAppBrowser links on contribution page
