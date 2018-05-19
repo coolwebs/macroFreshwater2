@@ -79,7 +79,9 @@
           <div class="image-slideshow" *ngIf="macroDetails.featured_image">
             <ion-slides pager="true">
               <ion-slide *ngFor="let images of macroDetails.featured_image">
-                <img src="./assets/imgs/specimens/{{images}}.jpg" />
+                <a data-fancybox="gallery" href="./assets/imgs/specimens/{{images}}.jpg">
+                  <img src="./assets/imgs/specimens/{{images}}.jpg" />
+                </a>
               </ion-slide>
             </ion-slides>
             <small class="slideinfo">Swipe to change the images</small>
