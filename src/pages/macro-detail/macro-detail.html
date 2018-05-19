@@ -86,8 +86,8 @@
             </ion-slides>
             <small class="slideinfo">Swipe to change the images</small>
           </div>
-          <a data-fancybox="gallery" href="./assets/imgs/specimens/{{macroDetails.single_image}}.jpg">
-            <img *ngIf="macroDetails.single_image" src="./assets/imgs/specimens/{{macroDetails.single_image}}.jpg" />
+          <a *ngIf="macroDetails.single_image" data-fancybox="gallery" href="./assets/imgs/specimens/{{macroDetails.single_image}}.jpg">
+            <img src="./assets/imgs/specimens/{{macroDetails.single_image}}.jpg" />
           </a>
         </ion-col>
 
