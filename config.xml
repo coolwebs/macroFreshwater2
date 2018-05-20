@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="eq.oeec.freshwatertablet" version="2.2.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="eq.oeec.freshwatertablet" version="2.2.1" xmlns:android=“http://schemas.android.com/apk/res/android" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Fmacro</name>
     <description>Freshwater Macroinverterbrates dichotomy application developed for QLD Outdoor Environmental Education Centres</description>
     <author email="ryan@coolwebs.com.au" href="https://coolwebs.com.au">Coolwebs</author>
@@ -21,6 +21,13 @@
     <preference name="SplashScreenDelay" value="3000" />
     <platform name="android">
         <allow-intent href="market:*" />
+        <edit-config file="AndroidManifest.xml" target="/manifest/supports-screens" mode="merge">
+            <supports-screens android:resizeable="true"
+                              android:smallScreens="false"
+                              android:normalScreens="false"
+                              android:largeScreens="true"
+                              android:xlargeScreens="true"/>
+        </edit-config>
         <icon density="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
         <icon density="mdpi" src="resources/android/icon/drawable-mdpi-icon.png" />
         <icon density="hdpi" src="resources/android/icon/drawable-hdpi-icon.png" />
