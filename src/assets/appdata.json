@@ -79,7 +79,7 @@
     ],
     "video": "caddisfly",
     "poster": "caddisfly-video-poster",
-    "sensitivity": "Tolerant",
+    "sensitivity": "Very Sensitive",
     "phylum": "Anthropoda",
     "class": "Insecta",
     "order": "Trichoptera",
@@ -166,7 +166,7 @@
     ],
     "video": "cyclops",
     "poster": "cyclops-video-poster",
-    "sensitivity": "Very sensitive",
+    "sensitivity": "Very Tolerant",
     "phylum": "Anthropoda",
     "class": "Insecta",
     "order": "Calandodia, Cyclopoida, Harpacticoida",
@@ -255,8 +255,7 @@
     "thumbnail": "dragonfly-th",
     "featured_image": [
       "dragonfly-nymph/dragonfly-nymph1",
-      "dragonfly-nymph/dragonfly-nymph2",
-      "dragonfly-nymph/dragonfly-nymph3"
+      "dragonfly-nymph/dragonfly-nymph2"
     ],
     "sensitivity": "Tolerant",
     "phylum": "Arthropoda",
@@ -608,7 +607,7 @@
     "filter_shell": "noshell",
     "filter_legs": "nolegs",
     "filter_tail": "notail",
-    "filter_sensitivity": "tolerant"
+    "filter_sensitivity": "veryTol"
   },
   {
     "title": "Pygmy Backswimmer",
@@ -905,7 +904,7 @@
     "filter_shell": "noshell",
     "filter_legs": "threepairs",
     "filter_tail": "notail",
-    "filter_sensitivity": "veryTol"
+    "filter_sensitivity": "sensitive"
   },
   {
     "title": "Water Flea",
