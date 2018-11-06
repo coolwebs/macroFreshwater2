@@ -166,7 +166,7 @@
     ],
     "video": "cyclops",
     "poster": "cyclops-video-poster",
-    "sensitivity": "Very Tolerant",
+    "sensitivity": "Very Sensitive",
     "phylum": "Anthropoda",
     "class": "Insecta",
     "order": "Calandodia, Cyclopoida, Harpacticoida",
@@ -178,7 +178,7 @@
     "filter_shell": "noshell",
     "filter_legs": "nolegs",
     "filter_tail": "notail",
-    "filter_sensitivity": "veryTol"
+    "filter_sensitivity": "verySens"
   },
   {
     "title": "Damselfly",
